@@ -1,3 +1,13 @@
+# <============================================================================>
+# Arizona precipitation and soil moisture visualizations
+# Temporal Ecology Lab
+# Author: Justin Ngo
+# <============================================================================>
+
+# getwd()
+# azmoist_directory <- file.path("")
+
+# loadng in packages
 library(dplyr)
 library(tidyverse)
 library(ggplot2)
@@ -344,7 +354,6 @@ jornada$VwcCorr_Avg_302_30cm <- ifelse((trimws(as.character(jornada$VwcCorr_Avg_
 suppressWarnings(jornada$VwcCorr_Avg_302_30cm <- ifelse(!is.na(as.numeric("NaN")) & (trimws(as.character(jornada$VwcCorr_Avg_302_30cm))==as.character(as.numeric("NaN"))),NA,jornada$VwcCorr_Avg_302_30cm))
 
 #Selecting for only VWC, volumetric water content
-View(jornada)
 jornadaVWC <- jornada %>%
   select(Date,
          Year,
@@ -370,6 +379,8 @@ jorVWClong <- jornadaVWC %>%
                names_to = "Depth",
                values_to = "VWC_avg")
 View(jorVWClong)
+
+
 
 #Filtering for specific years
 jornada2014 <- jorVWClong %>%
@@ -450,10 +461,91 @@ jornada2022b <- jornada2022 %>%
   filter(grepl("302",Depth))
 
 #visualization
+# jornada 2014, 301 depths
 jor14a_plot <- jornada2014a %>%
-  ggplot(aes(x = YearDay,y = VWC_avg,colour = Depth)) + 
-  geom_line(linewidth = 1.3) +
-  labs(x="Day of Year",y="Average volumetric water content ()") + 
-  theme_clean()
+  ggplot(aes(x = YearDay,y = VWC_avg,colour = Depth,shape = Depth)) + 
+  geom_line(linewidth = 0.5) +
+  geom_point(size = 2) + #when black/white, shapes will show through
+  labs(x="Day of Year (2014)",
+       y="Average volumetric water content",
+       colour ="301 Depth (cm)",
+       shape = "301 Depth (cm)") +
+  theme_clean() +
+  theme(axis.title = element_text(size = 12,face = "bold",),
+        legend.title = element_text(size = 12, face = "bold"),
+        legend.text = element_text(size = 10)) +
+  scale_colour_manual(values = c("VWC_Avg_301_10cm" = "#FFD524", #colour-blind friendly hues
+                                 "VWC_Avg_301_20cm" = "#20A16F",
+                                 "VWC_Avg_301_30cm" = "#366EC4"),
+                      labels = c(10,20,30)) +
+  scale_shape_manual(values = c("circle","square","triangle"),
+                     labels = c(10,20,30))
 jor14a_plot
-  
+ggsave("plots/jornada_2014_301.png",plot=jor14a_plot,scale=1,dpi=600)
+
+# jornada 2014, 302 depths
+jor14b_plot <- jornada2014b %>%
+  ggplot(aes(x = YearDay,y = VWC_avg,colour = Depth,shape = Depth)) + 
+  geom_line(linewidth = 0.5) +
+  geom_point(size = 2) + #when black/white, shapes will show through
+  labs(x="Day of Year (2014)",
+       y="Average volumetric water content",
+       colour ="302 Depth (cm)",
+       shape = "302 Depth (cm)") +
+  theme_clean() +
+  theme(axis.title = element_text(size = 12,face = "bold",),
+        legend.title = element_text(size = 12, face = "bold"),
+        legend.text = element_text(size = 10)) +
+  scale_colour_manual(values = c("VWC_Avg_302_10cm" = "#FFD524", #colour-blind friendly hues
+                                 "VWC_Avg_302_20cm" = "#20A16F",
+                                 "VWC_Avg_302_30cm" = "#366EC4"),
+                      labels = c(10,20,30)) +
+  scale_shape_manual(values = c("circle","square","triangle"),
+                     labels = c(10,20,30))
+jor14b_plot
+ggsave("plots/jornada_2014_302.png",plot=jor14b_plot,scale=1,dpi=600)
+
+# jornada 2015, 301 depths
+jor15a_plot <- jornada2015a %>%
+  ggplot(aes(x = YearDay,y = VWC_avg,colour = Depth,shape = Depth)) + 
+  geom_line(linewidth = 0.5) +
+  geom_point(size = 2) + #when black/white, shapes will show through
+  labs(x="Day of Year (2015)",
+       y="Average volumetric water content",
+       colour ="301 Depth (cm)",
+       shape = "301 Depth (cm)") +
+  theme_clean() +
+  theme(axis.title = element_text(size = 12,face = "bold",),
+        legend.title = element_text(size = 12, face = "bold"),
+        legend.text = element_text(size = 10)) +
+  scale_colour_manual(values = c("VWC_Avg_301_10cm" = "#FFD524", #colour-blind friendly hues
+                                 "VWC_Avg_301_20cm" = "#20A16F",
+                                 "VWC_Avg_301_30cm" = "#366EC4"),
+                      labels = c(10,20,30)) +
+  scale_shape_manual(values = c("circle","square","triangle"),
+                     labels = c(10,20,30))
+jor15a_plot
+ggsave("plots/jornada_2015_301.png",plot=jor15a_plot,scale=1,dpi=600)
+
+# jornada 2015, 302 depths
+jor15b_plot <- jornada2015b %>%
+  ggplot(aes(x = YearDay,y = VWC_avg,colour = Depth,shape = Depth)) + 
+  geom_line(linewidth = 0.5) +
+  geom_point(size = 2) + #when black/white, shapes will show through
+  labs(x="Day of Year (2015)",
+       y="Average volumetric water content",
+       colour ="302 Depth (cm)",
+       shape = "302 Depth (cm)") +
+  theme_clean() +
+  theme(axis.title = element_text(size = 12,face = "bold",),
+        legend.title = element_text(size = 12, face = "bold"),
+        legend.text = element_text(size = 10)) +
+  scale_colour_manual(values = c("VWC_Avg_302_10cm" = "#FFD524", #colour-blind friendly hues
+                                 "VWC_Avg_302_20cm" = "#20A16F",
+                                 "VWC_Avg_302_30cm" = "#366EC4"),
+                      labels = c(10,20,30)) +
+  scale_shape_manual(values = c("circle","square","triangle"),
+                     labels = c(10,20,30))
+jor15b_plot
+ggsave("plots/jornada_2015_302.png",plot=jor15b_plot,scale=1,dpi=600)
+
