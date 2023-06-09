@@ -1,0 +1,1084 @@
+Dataset title:  Jornada Basin LTER: Wireless meteorological station at NPP C-CALI site: Daily average soil volumetric water content data:  2013 - ongoing
+
+Dataset ID:  doi:10.6073/pasta/48000a94106fa0284305f9c556c7814a
+Dataset Creator
+
+	Name:		Michael Duniway
+	Position:	co-Principal Investigator
+	Organization:	JRN LTER
+	
+	Address:
+			,    
+	
+	Email:		mduniway@usgs.gov
+
+
+Dataset Abstract
+
+	Daily average of 30-minute Volumetric Water Content at NPP C-CALI met station. Collection of soil volumetric water content data at Jornada LTER NPP sites, New Mexico, supports the environmental monitoring objectives of the Jornada LTER monitoring program that look at plant-soil water dynamics. Volumetric water content, bulk electrical conductivity, soil temperature, and bulk dielectric permittivity are measured and calculated at an automated meteorological station installed at Jornada LTER NPP C-CALI site. The daily average at 3 soil depths is calculated from measurements made every 30 minutes at 10 cm, 20 cm, and 30 cm.     This is an ONGOING dataset.
+
+
+Dataset Keywords
+
+	soil volumetric water content
+	soil water
+	soil moisture
+	soil water content
+	soil temperature
+	electrical conductivity
+	Climate
+	Soils
+	and Atmosphere
+	core
+	long-term
+	NPP
+	study 437
+	NPP locations
+	C-CALI
+	Disturbance
+
+
+Intellectual Rights
+
+	This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+
+
+Distribution
+
+	Online distribution:  https://doi.org/10.6073/pasta/48000a94106fa0284305f9c556c7814a
+
+
+Geographic Coverage
+
+
+	Bounding Coordinates
+
+		Geographic description:	lter-jrn-met-cc -- NPP C-CALI site.  Precise geographic coordinates of the meteorological station are available upon request; please contact the Data Manager.
+		West bounding coordinate:	-106.865000
+		East bounding coordinate:	-106.713000
+		North bounding coordinate:	32.669000
+		South bounding coordinate:	32.488000
+	
+
+
+
+Temporal Coverage
+
+	Start Date:  2013-11-05
+	End Date:  2023-05-04
+
+
+Dataset Contact
+
+
+
+Methods
+
+	Sampling Description 
+
+
+
+	Method Step 
+
+		Description 
+
+
+
+		Instrumentation
+
+			Water Content Reflectometer; Manufacturer: Campbell Scientific Instruments, Model: CS650; Parameter: Relative Dielectric Permittivity (Range: 1 to 81, Accuracy: range 1 to 40: +/- (2% of reading + 0.6) for solution EC <= dS/m; range 40 to 80: +/- (1.4 for solution EC <= 3 dS/m), Precision: <0.02; Parameter: Volumetric Water Content using Topp Equation (m^3/m^3) (Range: 5% to 50%, Accuracy: +/-3% VWC typical in mineral soils where solution EC <=3 dS/m, Precision: <0.05%; Parameter: Electrical Conductivity (Range solution EC: 0 to 3 dS/m, Range Bulk EC: 0 to 3 dS/m, Accuracy: +/-(5% of reading + 0.05 dS/m), Precision: 0.5% of BEC; Parameter: Temperature (Soil measurement range: -10 to +70 degrees C, Operational range: 0 to +70 degrees C, Accuracy: +/- 0.5 degees C for probe body buried in soil, Precision: +/- 0.02 degrees C; Parameter: Sensing Volume = 7800 cm^3
+
+
+	Method Step 
+
+		Description 
+
+
+
+Data Table
+
+	Entity Name:  npp_c-cali_met_soil_moisture_daily_L2_rev_36.csv
+	Entity Description:  Main data table from Jornada Basin LTER: Wireless meteorological station at NPP C-CALI site: Daily average soil volumetric water content data:  2013 - ongoing
+	Object Name:  npp_c-cali_met_soil_moisture_daily_L2_rev_36.csv
+
+
+
+Data Format
+
+	Number of Header Lines:  4
+	Attribute Orientation:  column
+	Field Delimiter:  ,
+	Number of Records:  3468
+
+
+
+Attributes
+
+	Attribute Name:  Date
+	Attribute Label:  
+	Attribute Definition:  Date and time of observation. Time is in Mountain Standard Time (MST) or UTC/GMT -7
+	Storage Type:  string
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Year
+	Attribute Label:  
+	Attribute Definition:  Calendar year
+	Storage Type:  integer
+	Measurement Scale: 
+		Units  nominalYear
+		Precision:1		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  YearDay
+	Attribute Label:  
+	Attribute Definition:  Numerical year day (day number within the current year)
+	Storage Type:  integer
+	Measurement Scale: 
+		Units  nominalYear
+		Precision:1		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Hours
+	Attribute Label:  
+	Attribute Definition:  Time of day in fractional hours
+	Storage Type:  float
+	Measurement Scale: 
+		Units  hour
+		Precision:0.0001		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  RECORD
+	Attribute Label:  
+	Attribute Definition:  Record number generated by datalogger program
+	Storage Type:  integer
+	Measurement Scale: 
+		Units:		none
+		Precision:  1
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_RECORD
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Record number generated by datalogger program (flagging criteria, where "x" is RECORD: x<0="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Sitename
+	Attribute Label:  
+	Attribute Definition:  Site identifier
+	Storage Type:  integer
+	Measurement Scale: 
+		100= C-GRAV site
+		200= C-SAND site
+		300= C-CALI site
+		400= G-SUMM site
+		500= G-BASN site
+		600= G-IBPE site
+		700= P-SMAL site
+		800= P-COLL site
+		900= P-TOBO site
+		1000= T-TAYL site
+		1100= T-EAST site
+		1200= T-WEST site
+		1300= M-NORT site
+		1400= M-RABB site
+		1500= M-WELL site
+	Missing Value Code: 
+
+
+	Attribute Name:  VWC_Avg_301_10cm
+	Attribute Label:  
+	Attribute Definition:  Volumetric Water Content: Daily Average at 10 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		cubicMeterPerCubicMeter
+		Precision:  0.0000001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_VWC_Avg_301_10cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Volumetric Water Content: Daily Average at 10 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is VWC_Avg_301_10cm: (x>-0.04 & x<=0)="E", (x>-0.1 & x<=-0.04)="Q", (x<=-0.10)="I", (x>0.80 & x<1)="E", x>=1="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  EC_Avg_301_10cm
+	Attribute Label:  
+	Attribute Definition:  Soil Electrical conductivity: Daily Average at 10 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		decisiemensPerMeter
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_EC_Avg_301_10cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Soil Electrical conductivity: Daily Average at 10 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is EC_Avg_301_10cm: x<0="I", x==0="W", x==-0.0001="W", x>3="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Soil_Temp_Avg_301_10cm
+	Attribute Label:  
+	Attribute Definition:  Soil Temperature: Daily Average at 10 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		degreeCelcius
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_Soil_Temp_Avg_301_10cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Soil Temperature: Daily Average at 10 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is Soil_Temp_Avg_301_10cm: x<-35="I", x>80="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  P_Avg_301_10cm
+	Attribute Label:  
+	Attribute Definition:  Permittivity: Measurement at 30 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		none
+		Precision:  0.000001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_P_Avg_301_10cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Permittivity: Measurement at 30 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is P_Avg_301_10cm: x<1="I", x>81="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Period_Avg_301_10cm
+	Attribute Label:  
+	Attribute Definition:  Period Average: Measurement at 10 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		microsiemens
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_Period_Avg_301_10cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Period Average: Measurement at 10 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is Period_Avg_301_10cm: x<1="I", x>6="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Voltage_Ratio_Avg_301_10cm
+	Attribute Label:  
+	Attribute Definition:  Voltage Ratio: Daily Average at 10 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		none
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_Voltage_Ratio_Avg_301_10cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Voltage Ratio: Daily Average at 10 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is Voltage_Ratio_Avg_301_10cm: x<1="I", x>17="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  VWC_Avg_301_20cm
+	Attribute Label:  
+	Attribute Definition:  Volumetric Water Content: Daily Average at 20 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		cubicMeterPerCubicMeter
+		Precision:  0.0000001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_VWC_Avg_301_20cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Volumetric Water Content: Daily Average at 20 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is VWC_Avg_301_20cm: (x>-0.04 & x<=0)="E", (x>-0.1 & x<=-0.04)="Q", (x<=-0.10)="I", (x>0.80 & x<1)="E", x>=1="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  EC_Avg_301_20cm
+	Attribute Label:  
+	Attribute Definition:  Soil Electrical conductivity: Daily Average at 20 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		decisiemensPerMeter
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_EC_Avg_301_20cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Soil Electrical conductivity: Daily Average at 20 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is EC_Avg_301_20cm: x<0="I", x==0="W", x==-0.0001="W", x>3="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Soil_Temp_Avg_301_20cm
+	Attribute Label:  
+	Attribute Definition:  Soil Temperature: Daily Average at 20 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		degreeCelcius
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_Soil_Temp_Avg_301_20cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Soil Temperature: Daily Average at 20 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is Soil_Temp_Avg_301_20cm: x<-35="I", x>80="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  P_Avg_301_20cm
+	Attribute Label:  
+	Attribute Definition:  Permittivity: Measurement at 30 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		none
+		Precision:  0.000001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_P_Avg_301_20cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Permittivity: Measurement at 30 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is P_Avg_301_20cm: x<1="I", x>81="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Period_Avg_301_20cm
+	Attribute Label:  
+	Attribute Definition:  Period Average: Measurement at 20 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		microsiemens
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_Period_Avg_301_20cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Period Average: Measurement at 20 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is Period_Avg_301_20cm: x<1="I", x>6="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Voltage_Ratio_Avg_301_20cm
+	Attribute Label:  
+	Attribute Definition:  Voltage Ratio: Daily Average at 20 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		none
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_Voltage_Ratio_Avg_301_20cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Voltage Ratio: Daily Average at 20 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is Voltage_Ratio_Avg_301_20cm: x<1="I", x>17="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  VWC_Avg_301_30cm
+	Attribute Label:  
+	Attribute Definition:  Volumetric Water Content: Daily Average at 30 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		cubicMeterPerCubicMeter
+		Precision:  0.0000001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_VWC_Avg_301_30cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Volumetric Water Content: Daily Average at 30 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is VWC_Avg_301_30cm: (x>-0.04 & x<=0)="E", (x>-0.1 & x<=-0.04)="Q", (x<=-0.10)="I", (x>0.80 & x<1)="E", x>=1="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  EC_Avg_301_30cm
+	Attribute Label:  
+	Attribute Definition:  Soil Electrical conductivity: Daily Average at 30 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		decisiemensPerMeter
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_EC_Avg_301_30cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Soil Electrical conductivity: Daily Average at 30 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is EC_Avg_301_30cm: x<0="I", x==0="W", x==-0.0001="W", x>3="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Soil_Temp_Avg_301_30cm
+	Attribute Label:  
+	Attribute Definition:  Soil Temperature: Daily Average at 30 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		degreeCelcius
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_Soil_Temp_Avg_301_30cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Soil Temperature: Daily Average at 30 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is Soil_Temp_Avg_301_30cm: x<-35="I", x>80="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  P_Avg_301_30cm
+	Attribute Label:  
+	Attribute Definition:  Permittivity: Measurement at 30 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		none
+		Precision:  0.000001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_P_Avg_301_30cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Permittivity: Measurement at 30 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is P_Avg_301_30cm: x<1="I", x>81="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Period_Avg_301_30cm
+	Attribute Label:  
+	Attribute Definition:  Period Average: Measurement at 30 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		microsiemens
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_Period_Avg_301_30cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Period Average: Measurement at 30 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is Period_Avg_301_30cm: x<1="I", x>6="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Voltage_Ratio_Avg_301_30cm
+	Attribute Label:  
+	Attribute Definition:  Voltage Ratio: Daily Average at 30 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		none
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_Voltage_Ratio_Avg_301_30cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Voltage Ratio: Daily Average at 30 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is Voltage_Ratio_Avg_301_30cm: x<1="I", x>17="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  VWC_Avg_302_10cm
+	Attribute Label:  
+	Attribute Definition:  Volumetric Water Content: Daily Average at 10 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		cubicMeterPerCubicMeter
+		Precision:  0.0000001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_VWC_Avg_302_10cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Volumetric Water Content: Daily Average at 10 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is VWC_Avg_302_10cm: (x>-0.04 & x<=0)="E", (x>-0.1 & x<=-0.04)="Q", (x<=-0.10)="I", (x>0.80 & x<1)="E", x>=1="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  EC_Avg_302_10cm
+	Attribute Label:  
+	Attribute Definition:  Soil Electrical conductivity: Daily Average at 10 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		decisiemensPerMeter
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_EC_Avg_302_10cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Soil Electrical conductivity: Daily Average at 10 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is EC_Avg_302_10cm: x<0="I", x==0="W", x==-0.0001="W", x>3="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Soil_Temp_Avg_302_10cm
+	Attribute Label:  
+	Attribute Definition:  Soil Temperature: Daily Average at 10 cm soil depth Under Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		degreeCelcius
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_Soil_Temp_Avg_302_10cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Soil Temperature: Daily Average at 10 cm soil depth Under Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is Soil_Temp_Avg_302_10cm: x<-35="I", x>80="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  P_Avg_302_10cm
+	Attribute Label:  
+	Attribute Definition:  Permittivity: Measurement at 30 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		none
+		Precision:  0.000001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_P_Avg_302_10cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Permittivity: Measurement at 30 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is P_Avg_302_10cm: x<1="I", x>81="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Period_Avg_302_10cm
+	Attribute Label:  
+	Attribute Definition:  Period Average: Measurement at 10 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		microsiemens
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_Period_Avg_302_10cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Period Average: Measurement at 10 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is Period_Avg_302_10cm: x<1="I", x>6="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Voltage_Ratio_Avg_302_10cm
+	Attribute Label:  
+	Attribute Definition:  Voltage Ratio: Daily Average at 10 cm soil depth Under Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		none
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_Voltage_Ratio_Avg_302_10cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Voltage Ratio: Daily Average at 10 cm soil depth Under Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is Voltage_Ratio_Avg_302_10cm: x<1="I", x>17="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  VWC_Avg_302_20cm
+	Attribute Label:  
+	Attribute Definition:  Volumetric Water Content: Daily Average at 20 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		cubicMeterPerCubicMeter
+		Precision:  0.0000001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_VWC_Avg_302_20cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Volumetric Water Content: Daily Average at 20 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is VWC_Avg_302_20cm: (x>-0.04 & x<=0)="E", (x>-0.1 & x<=-0.04)="Q", (x<=-0.10)="I", (x>0.80 & x<1)="E", x>=1="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  EC_Avg_302_20cm
+	Attribute Label:  
+	Attribute Definition:  Soil Electrical conductivity: Daily Average at 20 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		decisiemensPerMeter
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_EC_Avg_302_20cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Soil Electrical conductivity: Daily Average at 20 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is EC_Avg_302_20cm: x<0="I", x==0="W", x==-0.0001="W", x>3="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Soil_Temp_Avg_302_20cm
+	Attribute Label:  
+	Attribute Definition:  Soil Temperature: Daily Average at 20 cm soil depth Under Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		degreeCelcius
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_Soil_Temp_Avg_302_20cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Soil Temperature: Daily Average at 20 cm soil depth Under Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is Soil_Temp_Avg_302_20cm: x<-35="I", x>80="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  P_Avg_302_20cm
+	Attribute Label:  
+	Attribute Definition:  Permittivity: Measurement at 30 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		none
+		Precision:  0.000001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_P_Avg_302_20cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Permittivity: Measurement at 30 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is P_Avg_302_20cm: x<1="I", x>81="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Period_Avg_302_20cm
+	Attribute Label:  
+	Attribute Definition:  Period Average: Measurement at 20 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		microsiemens
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_Period_Avg_302_20cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Period Average: Measurement at 20 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is Period_Avg_302_20cm: x<1="I", x>6="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Voltage_Ratio_Avg_302_20cm
+	Attribute Label:  
+	Attribute Definition:  Voltage Ratio: Daily Average at 20 cm soil depth Under Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		none
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_Voltage_Ratio_Avg_302_20cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Voltage Ratio: Daily Average at 20 cm soil depth Under Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is Voltage_Ratio_Avg_302_20cm: x<1="I", x>17="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  VWC_Avg_302_30cm
+	Attribute Label:  
+	Attribute Definition:  Volumetric Water Content: Daily Average at 30 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		cubicMeterPerCubicMeter
+		Precision:  0.0000001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_VWC_Avg_302_30cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Volumetric Water Content: Daily Average at 30 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is VWC_Avg_302_30cm: (x>-0.04 & x<=0)="E", (x>-0.1 & x<=-0.04)="Q", (x<=-0.10)="I", (x>0.80 & x<1)="E", x>=1="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  EC_Avg_302_30cm
+	Attribute Label:  
+	Attribute Definition:  Soil Electrical conductivity: Daily Average at 30 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		decisiemensPerMeter
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_EC_Avg_302_30cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Soil Electrical conductivity: Daily Average at 30 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is EC_Avg_302_30cm: x<0="I", x==0="W", x==-0.0001="W", x>3="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Soil_Temp_Avg_302_30cm
+	Attribute Label:  
+	Attribute Definition:  Soil Temperature: Daily Average at 30 cm soil depth Under Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		degreeCelcius
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_Soil_Temp_Avg_302_30cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Soil Temperature: Daily Average at 30 cm soil depth Under Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is Soil_Temp_Avg_302_30cm: x<-35="I", x>80="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  P_Avg_302_30cm
+	Attribute Label:  
+	Attribute Definition:  Permittivity: Measurement at 30 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		none
+		Precision:  0.000001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_P_Avg_302_30cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Permittivity: Measurement at 30 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is P_Avg_302_30cm: x<1="I", x>81="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Period_Avg_302_30cm
+	Attribute Label:  
+	Attribute Definition:  Period Average: Measurement at 30 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		microsiemens
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_Period_Avg_302_30cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Period Average: Measurement at 30 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is Period_Avg_302_30cm: x<1="I", x>6="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  Voltage_Ratio_Avg_302_30cm
+	Attribute Label:  
+	Attribute Definition:  Voltage Ratio: Daily Average at 30 cm soil depth Under Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		none
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_Voltage_Ratio_Avg_302_30cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Voltage Ratio: Daily Average at 30 cm soil depth Under Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is Voltage_Ratio_Avg_302_30cm: x<1="I", x>17="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  VwcCorr_Avg_301_10cm
+	Attribute Label:  
+	Attribute Definition:  Volumetric Water Content Temperature Corrected: Daily Average at 10 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		cubicMeterPerCubicMeter
+		Precision:  0.0000001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_VwcCorr_Avg_301_10cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Volumetric Water Content Temperature Corrected: Daily Average at 10 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is VwcCorr_Avg_301_10cm: (x>-0.04 & x<=0)="E", (x>-0.1 & x<=-0.04)="Q", (x<=-0.10)="I", (x>=0 & x<-0.03)="E", (x>0.80 & x<1)="E", x>=1="I")
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		E= Estimated value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  VwcCorr_Avg_301_20cm
+	Attribute Label:  
+	Attribute Definition:  Volumetric Water Content Temperature Corrected: Daily Average at 20 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		cubicMeterPerCubicMeter
+		Precision:  0.0000001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_VwcCorr_Avg_301_20cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Volumetric Water Content Temperature Corrected: Daily Average at 20 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is VwcCorr_Avg_301_20cm: (x>-0.04 & x<=0)="E", (x>-0.1 & x<=-0.04)="Q", (x<=-0.10)="I", (x>=0 & x<-0.03)="E", (x>0.80 & x<1)="E", x>=1="I")
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		E= Estimated value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  VwcCorr_Avg_301_30cm
+	Attribute Label:  
+	Attribute Definition:  Volumetric Water Content Temperature Corrected: Daily Average at 30 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		cubicMeterPerCubicMeter
+		Precision:  0.0000001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_VwcCorr_Avg_301_30cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Volumetric Water Content Temperature Corrected: Daily Average at 30 cm soil depth Between Larrea tridentata (creosotebush) shrubs using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 301 (flagging criteria, where "x" is VwcCorr_Avg_301_30cm: (x>-0.04 & x<=0)="E", (x>-0.1 & x<=-0.04)="Q", (x<=-0.10)="I", (x>=0 & x<-0.03)="E", (x>0.80 & x<1)="E", x>=1="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  VwcCorr_Avg_302_10cm
+	Attribute Label:  
+	Attribute Definition:  Volumetric Water Content Temperature Corrected: Daily Average at 10 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		cubicMeterPerCubicMeter
+		Precision:  0.0000001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_VwcCorr_Avg_302_10cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Volumetric Water Content Temperature Corrected: Daily Average at 10 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is VwcCorr_Avg_302_10cm: (x>-0.04 & x<=0)="E", (x>-0.1 & x<=-0.04)="Q", (x<=-0.10)="I", (x>=0 & x<-0.03)="E", (x>0.80 & x<1)="E", x>=1="I")
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		E= Estimated value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  VwcCorr_Avg_302_20cm
+	Attribute Label:  
+	Attribute Definition:  Volumetric Water Content Temperature Corrected: Daily Average at 20 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		cubicMeterPerCubicMeter
+		Precision:  0.0000001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_VwcCorr_Avg_302_20cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Volumetric Water Content Temperature Corrected: Daily Average at 20 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is VwcCorr_Avg_302_20cm: (x>-0.04 & x<=0)="E", (x>-0.1 & x<=-0.04)="Q", (x<=-0.10)="I", (x>=0 & x<-0.03)="E", (x>0.80 & x<1)="E", x>=1="I")
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		E= Estimated value
+		M= Missing value
+	Missing Value Code: 
+
+
+	Attribute Name:  VwcCorr_Avg_302_30cm
+	Attribute Label:  
+	Attribute Definition:  Volumetric Water Content Temperature Corrected: Daily Average at 30 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302
+	Storage Type:  floating-point
+	Measurement Scale: 
+		Units:		cubicMeterPerCubicMeter
+		Precision:  0.0000001
+		Number Type:  real
+	Missing Value Code: NaN  (value not recorded or censored based on quality control analysis (see methods))
+
+
+	Attribute Name:  Flag_VwcCorr_Avg_302_30cm
+	Attribute Label:  
+	Attribute Definition:  QA/QC flags for Volumetric Water Content Temperature Corrected: Daily Average at 30 cm soil depth Under Larrea tridentata (creosotebush) shrub canopy using Campbell Scientific CS650 soil moisture sensor offset from neutron probe Access Tube ID 302 (flagging criteria, where "x" is VwcCorr_Avg_302_30cm: (x>-0.04 & x<=0)="E", (x>-0.1 & x<=-0.04)="Q", (x<=-0.10)="I", (x>=0 & x<-0.03)="E", (x>0.80 & x<1)="E", x>=1="I", manual)
+	Storage Type:  string
+	Measurement Scale: 
+		A= Accepted value
+		M= Missing value
+	Missing Value Code: 
+
+

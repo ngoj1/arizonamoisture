@@ -1,0 +1,5 @@
+Manifest file for knb-lter-jrn.210437091.36.zip created on Thu Jun 01 21:48:51 UTC 2023
+npp_c-cali_met_soil_moisture_daily_L2_rev_36.csv (1625676 bytes)
+knb-lter-jrn.210437091.36.xml (137475 bytes)
+knb-lter-jrn.210437091.36.txt (51620 bytes)
+knb-lter-jrn.210437091.36.report.xml (39342 bytes)
