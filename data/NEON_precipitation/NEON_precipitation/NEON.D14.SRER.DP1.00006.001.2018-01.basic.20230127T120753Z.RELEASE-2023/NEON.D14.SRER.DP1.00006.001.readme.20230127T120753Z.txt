@@ -1,0 +1,1738 @@
+This data package was produced by and downloaded from the National Ecological Observatory Network (NEON). NEON is funded by the National Science Foundation (Awards 0653461, 0752017, 1029808, 1138160, 1246537, 1638695, 1638696, 1724433) and managed cooperatively by Battelle. These data are provided under the terms of the NEON data policy at https://www.neonscience.org/data-policy.
+
+
+
+DATA PRODUCT INFORMATION
+
+------------------------
+
+
+
+ID: NEON.DOM.SITE.DP1.00006.001
+
+
+
+Name: Precipitation
+
+
+
+Description: Bulk precipitation collected using up to three methods - primary, secondary, and throughfall. Bulk precipitation is determined at five- and thirty-minute intervals for primary precipitation and at one- and thirty-minute intervals for secondary and throughfall precipitation.
+
+
+
+NEON Science Team Supplier: Terrestrial Instrument System
+
+
+
+Abstract: Up to three methods are used to determine bulk precipitation at each site. Primary - weighing gauge housed within a small double fence intercomparison reference (DFIR). Secondary - tipping bucket located on the top of the tower at terrestrial sites or at approx. 1.5 m above the ground at aquatic sites. Throughfall - tipping buckets below the canopy and equipped with troughs extending outward from the tipping bucket.  
+
+Latency:
+Data collected in any given month are published during the second full week of the following month.
+
+
+
+Brief Design Description: Precipitation records are fundamental to understanding water availability in an ecosystem. In turn, evapotranspiration and latent heat fluxes can be better understood and climate conditions can be better modeled. Bulk precipitation measured using a DFIR and a weighing gauge is known to provide improved results over tipping bucket measurements. Thus, the weighing gauge surrounded by the DFIR is considered the “primary” method, while the tipping bucket is referred to as the “secondary” method. Throughfall precipitation informs interception of precipitation by the canopy and pass-through to the soil surface.
+
+
+
+Brief Study Area Description: Primary precipitation gauges are located at all core terrestrial sites, generally located within 0.5 km of the tower infrastructure, and at some core aquatic sites. Secondary precipitation is measured at the tower top at all gradient terrestrial sites, a select few core tower sites, and aquatic sites that are more than 10 km from a terrestrial site or in a different watershed; this includes core aquatic sites that do not support the installation of a primary precipitation gauge. 
+Throughfall collectors are located within the soil plots at all terrestrial sites where the canopy is seasonally taller than the height of the throughfall collector inlet. [This spreadsheet](https://www.neonscience.org/sites/default/files/PrecipSensorsBySite.xlsx) provides the quantity and type of precipitation collector(s) located at each NEON site, along with the nearby terrestrial site from which to download precipitation data for aquatic sites without precipitation collectors.
+
+
+
+Sensor(s): Belfort AEPG II 600M weighing gauge (primary precipitation), Met One 372 tipping bucket (non-heated; secondary precipitation and throughfall) and 379 tipping bucket (heated; secondary precipitation)
+
+
+
+Keywords: rainfall, snowfall, throughfall, tower, tipping bucket, interception, secondary precipitation, snow, precipitation, bulk precipitation, primary precipitation
+
+
+
+
+
+QUERY INFORMATION
+
+-----------------
+
+
+
+Date-Time for Data Publication: 2022-12-10 23:19 (UTC)
+
+Start Date-Time for Queried Data: 2018-01-01 00:00 (UTC)
+
+End Date-Time for Queried Data: 2018-02-01 00:00 (UTC)
+
+
+
+Site: SRER
+
+Geographic coordinates (lat/long datum): 
+Domain: D14
+
+
+
+
+
+DATA PACKAGE CONTENTS
+
+---------------------
+
+
+
+This folder contains the following documentation files:
+
+
+
+- This readme file: NEON.D14.SRER.DP1.00006.001.readme.20230127T120753Z.txt
+
+- Term descriptions, data types, and units: NEON.D14.SRER.DP1.00006.001.variables.20221210T231942Z.csv
+
+- Machine-readable metadata file describing the data package: NEON.D14.SRER.DP1.00006.001.EML.20180101-20180201.20230127T120753Z.xml. This file uses the Ecological Metadata Language schema. Learn more about this specification and tools to parse it at https://www.neonscience.org/about/faq.
+
+- Sensor position information: NEON.D14.SRER.DP1.00006.001.sensor_positions.20221210T231942Z.csv
+
+- Other related documents, such as engineering specifications, field protocols and data processing documentation, are available. Please visit https://data.neonscience.org/data-products/DP1.00006.001 for more information.
+
+
+
+
+
+This folder also contains 12 data files:
+
+NEON.D14.SRER.DP1.00006.001.002.000.030.THRPRE_30min.2018-01.basic.20221210T231942Z.csv - Throughfall pooled over 30 minutes
+NEON.D14.SRER.DP1.00006.001.005.000.030.THRPRE_30min.2018-01.basic.20221210T231942Z.csv - Throughfall pooled over 30 minutes
+NEON.D14.SRER.DP1.00006.001.003.000.001.THRPRE_1min.2018-01.basic.20221210T231942Z.csv - Throughfall pooled over 1 minute
+NEON.D14.SRER.DP1.00006.001.004.000.030.THRPRE_30min.2018-01.basic.20221210T231942Z.csv - Throughfall pooled over 30 minutes
+NEON.D14.SRER.DP1.00006.001.900.000.030.PRIPRE_30min.2018-01.basic.20221210T231942Z.csv - Primary Precipitation pooled over 30 minutes
+NEON.D14.SRER.DP1.00006.001.005.000.001.THRPRE_1min.2018-01.basic.20221210T231942Z.csv - Throughfall pooled over 1 minute
+NEON.D14.SRER.DP1.00006.001.001.000.030.THRPRE_30min.2018-01.basic.20221210T231942Z.csv - Throughfall pooled over 30 minutes
+NEON.D14.SRER.DP1.00006.001.002.000.001.THRPRE_1min.2018-01.basic.20221210T231942Z.csv - Throughfall pooled over 1 minute
+NEON.D14.SRER.DP1.00006.001.900.000.005.PRIPRE_5min.2018-01.basic.20221210T231942Z.csv - Primary Precipitation pooled over 5 minutes
+NEON.D14.SRER.DP1.00006.001.001.000.001.THRPRE_1min.2018-01.basic.20221210T231942Z.csv - Throughfall pooled over 1 minute
+NEON.D14.SRER.DP1.00006.001.004.000.001.THRPRE_1min.2018-01.basic.20221210T231942Z.csv - Throughfall pooled over 1 minute
+NEON.D14.SRER.DP1.00006.001.003.000.030.THRPRE_30min.2018-01.basic.20221210T231942Z.csv - Throughfall pooled over 30 minutes
+
+
+
+Basic download package definition: Includes the data product, summary statistics, expanded uncertainty, and final quality flag.
+
+
+
+Expanded download package definition: Includes the basic package information plus quality metrics for all of the quality assessment and quality control analyses.
+
+
+
+
+
+FILE NAMING CONVENTIONS
+-----------------------
+
+NEON data files are named using a series of component abbreviations separated by periods. File naming conventions for NEON data files differ between NEON science teams. A file will have the same name whether it is accessed via NEON's data portal or API. Please visit https://www.neonscience.org/data-formats-conventions for a full description of the naming conventions.
+
+ISSUE LOG
+
+----------
+
+
+
+This log provides a list of issues that were identified during data collection or processing, prior to publication of this data package. For a more recent log, please visit this data product's detail page at https://data.neonscience.org/data-products/DP1.00006.001.
+
+
+
+Issue Date: 2020-06-11
+Issue: Spurious trace precipitation is recorded frequently for all primary precipitation sensors (weighing gauges). While actual precipitation events are typically distinguishable from spurious events in the time series, the spurious events can add significantly to precipitation totals when aggregated over long intervals.  Sums of spurious precipitation range from < 0.05 mm/day to > 0.5mm/day, with higher sums generally corresponding to sites and time periods of greater evaporative demand.  
+       Date Range: 2013-01-01 to 2020-06-11
+       Location(s) Affected: All primary precipitation locations.
+Resolution Date: 
+Resolution: Issue ongoing. We are working on additional quality control algorithms in order to detect and remove spurious trace events in the primary precipitation data product. An updated algorithm is expected sometime in 2022.
+
+Issue Date: 2022-09-12
+Issue: Severe flooding destroyed several roads into Yellowstone National Park in June 2022, making the YELL and BLDE sites inaccessible to NEON staff. Preventive and corrective maintenance are not being performed, nor is the annual exchange of sensors for calibration and validation. While automated quality control routines are likely to detect and flag most issues, users are advised to review data carefully.
+       Date Range: 2022-06-12 to 2022-12-31
+       Location(s) Affected: YELL
+Resolution Date: 
+Resolution: 
+
+Issue Date: 2022-11-10
+Issue: Tree growth began causing interference between the throughfall assembly and the tree starting around 2022-05-18.
+       Date Range: 2022-05-18 to 2022-11-08
+       Location(s) Affected: DELA soil plot 1 (HOR: 001)
+Resolution Date: 2022-11-10
+Resolution: Throughfall troughs were rotated approximately 20 degrees (clockwise viewed from above) on 2022-11-08 to avoid interference. Impacts on the time series are expected to be undetectable to small due to the inherently noisy nature of throughfall data, but it is possible that a step change in the time series may occur.
+
+Issue Date: 2022-09-13
+Issue: Throughfall sensor was not powered and recorded false zeros
+       Date Range: 2022-02-24 to 2022-09-06
+       Location(s) Affected: D14 SRER Soil Plot 3 (HOR.VER.003.000)
+Resolution Date: 2022-09-13
+Resolution: Sensor was replaced and power issue fixed. Data redacted
+
+Issue Date: 2022-08-09
+Issue: Dead bird found in primary precipitation sensor
+       Date Range: 2022-02-15 to 2022-07-18
+       Location(s) Affected: D15 ONAQ Primary Precip  (HOR.VER.900.00)
+Resolution Date: 2022-08-09
+Resolution: The dead bird was found in the sensor on 20220718 and fell into the sensor sometime between 20220215 and 20220718. The precise time could not be determined thus the data is not flagged.
+
+Issue Date: 2022-07-28
+Issue: Throughfall sensor failure caused missed precipitation events and false zeros
+       Date Range: 2022-03-30 to 2022-07-19
+       Location(s) Affected: D10 STER Soil Plot 1 (HOR.VER.001.000)
+       Date Range: 2022-06-14 to 2022-07-07
+       Location(s) Affected: D02 SERC Soil Plot 5 (HOR.VER.005.000)
+Resolution Date: 2022-07-28
+Resolution: Sensor replaced and data redacted
+
+Issue Date: 2022-07-20
+Issue: Tree fell and damaged one trough of the throughfall collector
+       Date Range: 2022-02-01 to 2022-05-23
+       Location(s) Affected: D17 TEAK Soil Plot 2 (HOR.VER.002.000)
+Resolution Date: 2022-07-20
+Resolution: sensor repaired, applied manual flagging.
+
+Issue Date: 2022-07-05
+Issue: Heater foam had fallen and was making contact with the rim of the sample bucket. Data was skewed and unit was recording higher precipitation amounts than accurate
+       Date Range: 2021-09-23 to 2022-03-01
+       Location(s) Affected: D02 SCBI Primary Precipitation (HOR.VER.900.000)
+Resolution Date: 2022-07-05
+Resolution: Foam removed and data manually flagged
+
+Issue Date: 2022-07-05
+Issue: Flooding had corroded tipping mechanisms and resulted in false zeros being populated
+       Date Range: 2022-02-25 to 2022-04-22
+       Location(s) Affected: D08 DELA all throughfalls (HOR.VER.001.000-005.000)
+Resolution Date: 2022-07-05
+Resolution: Sensors replaced during annual refresh and data redacted
+
+Issue Date: 2022-05-16
+Issue: Sensor covered because bucket was full and staff did not have enough time to calibrate
+       Date Range: 2022-02-15 to 2022-02-25
+       Location(s) Affected: BONA primary precipitation (HOR.VER: 900.000)
+Resolution Date: 2022-05-16
+Resolution: Data flagged and sensor uncovered and recalibrated
+
+Issue Date: 2022-04-19
+Issue: Tipping mechanism was sticking and missing precipitation events.
+       Date Range: 2022-03-05 to 2022-03-15
+       Location(s) Affected: D06 UKFS Soil Plot 2 (HOR.VER.020.000)
+Resolution Date: 2022-04-19
+Resolution: Sensor cleaned and data manually flagged
+
+Issue Date: 2022-04-01
+Issue: Sensor appears to be malfunctioning or clogged
+       Date Range: 2020-10-28 to 2020-10-30
+       Location(s) Affected: HARV (HOR.VER: 000.060)
+       Date Range: 2021-05-03 to 2021-05-12
+       Location(s) Affected: ORNL (HOR.VER: , 002.000, 003.000)
+       Date Range: 2021-05-10 to 2021-05-12
+       Location(s) Affected: ORNL (HOR.VER: 000.060)
+       Date Range: 2021-09-23 to 2021-11-04
+       Location(s) Affected: BIGC (HOR.VER: 220.000)
+       Date Range: 2021-12-08 to 2021-12-09
+       Location(s) Affected: LENO (HOR.VER: 000.060)
+       Date Range: 2021-12-26 to 2022-01-01
+       Location(s) Affected: SCBI (HOR.VER: 000.060)
+Resolution Date: 2022-04-01
+Resolution: Applied manual flagging
+
+Issue Date: 2022-03-15
+Issue: Unit was operating after a power outage without being recalibrated
+       Date Range: 2021-12-18 to 2021-12-29
+       Location(s) Affected: PUUM Primary Precipitation Gauge
+Resolution Date: 2022-03-15
+Resolution: Data Flagged and unit recalibrated
+
+Issue Date: 2022-03-15
+Issue: Extended power outage caused inaccurate precipitation readings.
+       Date Range: 2022-03-15 to 2022-03-15
+       Location(s) Affected: PUUM (HOR.VER: 000.060, 001.000, 002.000)
+Resolution Date: 2022-03-15
+Resolution: Data redacted
+
+Issue Date: 2022-02-28
+Issue: Sensor appears to be clogged
+       Date Range: 2020-10-05 to 2020-12-06
+       Location(s) Affected: SCBI soil plot 5 (HOR.VER: 005.000)
+       Date Range: 2020-10-17 to 2020-11-09
+       Location(s) Affected: GUAN soil plot 5 (HOR.VER: 005.000)
+       Date Range: 2020-11-11 to 2020-11-25
+       Location(s) Affected: GUAN soil plot 5 (HOR.VER: 005.000)
+       Date Range: 2020-11-16 to 2020-11-17
+       Location(s) Affected: BART soil plot 5 (HOR.VER: 005.000)
+       Date Range: 2020-11-16 to 2020-12-06
+       Location(s) Affected: BART soil plot 3 (HOR.VER: 003.000)
+       Date Range: 2020-12-04 to 2020-12-06
+       Location(s) Affected: SCBI soil plot 4 (HOR.VER: 004.000)
+       Date Range: 2020-12-07 to 2022-02-26
+       Location(s) Affected: DSNY soil plot 4 (HOR.VER: 004.000)
+       Date Range: 2020-12-14 to 2021-01-08
+       Location(s) Affected: ORNL soil plot 1 (HOR.VER: 001.000)
+       Date Range: 2020-12-22 to 2021-01-03
+       Location(s) Affected: SERC soil plot 3 (HOR.VER: 003.000)
+       Date Range: 2021-01-01 to 2021-02-19
+       Location(s) Affected: JERC soil plot 3 (HOR.VER: 003.000)
+       Date Range: 2021-03-01 to 2021-03-28
+       Location(s) Affected: JERC soil plot 1 (HOR.VER: 001.000)
+       Date Range: 2021-05-11 to 2021-05-13
+       Location(s) Affected: TALL soil plots 1 and 4 (HOR.VER: 001.000, 004.000)
+       Date Range: 2021-05-11 to 2021-05-30
+       Location(s) Affected: DEJU soil plot 1 and 2 (HOR.VER: 001.000, 002.000)
+       Date Range: 2021-05-26 to 2021-06-01
+       Location(s) Affected: HARV soil plots 3 and 4 (HOR.VER: 003.000, 004.000)
+       Date Range: 2021-06-04 to 2021-08-03
+       Location(s) Affected: SERC soil plots 4 and 5 (HOR.VER: 004.000, 005.000)
+       Date Range: 2021-06-11 to 2021-08-03
+       Location(s) Affected: SERC soil plot 3 (HOR.VER: 003.000)
+       Date Range: 2021-06-20 to 2021-07-07
+       Location(s) Affected: DELA soil plot 1 (HOR.VER: 001.000)
+       Date Range: 2021-06-21 to 2021-09-10
+       Location(s) Affected: ORNL soil plot 1 (HOR.VER: 001.000)
+       Date Range: 2021-06-26 to 2021-08-03
+       Location(s) Affected: SERC soil plot 1 (HOR.VER: 001.000)
+       Date Range: 2021-06-30 to 2021-08-10
+       Location(s) Affected: BART soil plot 1 (HOR.VER: 001.000)
+       Date Range: 2021-07-09 to 2021-07-20
+       Location(s) Affected: HARV soil plot 4 (HOR.VER: 004.000)
+       Date Range: 2021-07-11 to 2021-07-12
+       Location(s) Affected: TALL soil plots 1 (HOR.VER: 001.000)
+       Date Range: 2021-07-12 to 2021-08-27
+       Location(s) Affected: TALL soil plots 1, 3, 4 and 5 (HOR.VER: 001.000, 003.000, 004.000, 005.000)
+       Date Range: 2021-07-17 to 2021-07-20
+       Location(s) Affected: HARV soil plot 1 (HOR.VER: 001.000)
+       Date Range: 2021-07-25 to 2021-08-04
+       Location(s) Affected: BART soil plot 2 (HOR.VER: 002.000)
+       Date Range: 2021-08-23 to 2021-09-07
+       Location(s) Affected: SERC soil plots 1, 3, 4 and 5 (HOR.VER: 001.000, 003.000, 004.000, 005.000)
+       Date Range: 2021-08-29 to 2021-09-10
+       Location(s) Affected: MLBS soil plot 2 (HOR.VER: 002.000)
+       Date Range: 2021-09-23 to 2021-11-02
+       Location(s) Affected: BART soil plot 5 (HOR.VER: 005.000)
+       Date Range: 2021-10-03 to 2021-10-07
+       Location(s) Affected: ORNL soil plot 1 (HOR.VER: 001.000)
+       Date Range: 2021-10-15 to 2021-12-14
+       Location(s) Affected: DSNY soil plot 1 (HOR.VER: 001.000)
+       Date Range: 2021-10-27 to 2021-10-29
+       Location(s) Affected: KONA soil plots 1 and 4 (HOR.VER: 001.000, 004.000)
+       Date Range: 2021-10-28 to 2021-11-22
+       Location(s) Affected: DSNY soil plot 2 (HOR.VER: 002.000)
+       Date Range: 2021-11-22 to 2021-11-23
+       Location(s) Affected: TALL soil plots 1 (HOR.VER: 001.000)
+       Date Range: 2021-11-22 to 2021-12-21
+       Location(s) Affected: LENO soil plot 1 (HOR.VER: 001.000)
+       Date Range: 2021-12-18 to 2022-01-04
+       Location(s) Affected: TALL soil plots 4 (HOR.VER: 004.000)
+       Date Range: 2021-12-30 to 2022-01-03
+       Location(s) Affected: BART soil plot 4 (HOR.VER: 004.000)
+       Date Range: 2022-01-06 to 2022-01-27
+       Location(s) Affected: JERC soil plot 4 (HOR.VER: 004.000)
+       Date Range: 2022-02-28 to 2022-02-28
+       Location(s) Affected: GRSM soil plot 1 (HOR.VER: 001.000)
+       Date Range: 2022-03-07 to 2022-03-15
+       Location(s) Affected: D03 JERC Soil plot 3 (HOR.VER.003.000)
+       Date Range: 2022-03-17 to 2022-04-12
+       Location(s) Affected: D03 JERC Soil plot 2 (HOR.VER.002.000)
+       Date Range: 2022-03-23 to 2022-04-21
+       Location(s) Affected: D07 ORNL Soil plot 3 (HOR.VER.003.000)
+       Date Range: 2022-03-30 to 2022-04-20
+       Location(s) Affected: D11 CLBJ Soil plots 1, 4, and 5 (HOR.VER 001.000, 004.000, 005.000)
+       Date Range: 2022-04-05 to 2022-04-12
+       Location(s) Affected: D03 JERC Soil plot 3 (HOR.VER.003.000)
+       Date Range: 2022-04-05 to 2022-04-19
+       Location(s) Affected: D07 GRSM Soil plot 4 (HOR.VER.004.000)
+       Date Range: 2022-04-07 to 2022-04-19
+       Location(s) Affected: D07 GRSM Soil plot 3 (HOR.VER.003.000)
+       Date Range: 2022-04-11 to 2022-04-21
+       Location(s) Affected: D07 ORNL Soil plot 2 (HOR.VER.002.000)
+       Date Range: 2022-04-14 to 2022-04-18
+       Location(s) Affected: D08 LENO Soil Plots 1, 3, 4 (HOR.VER 001.000, 003.000, 004.000)
+       Date Range: 2022-04-18 to 2022-04-25
+       Location(s) Affected: D02 SCBI Soil plot 1 (HOR.VER.001.000)
+       Date Range: 2022-05-02 to 2022-06-15
+       Location(s) Affected: D03 OSBS Soil Plot 2 (HOR.VER.002.000)
+       Date Range: 2022-05-04 to 2022-05-12
+       Location(s) Affected: D02 BLAN Soil plot 4 (HOR.VER.004.000)
+       Date Range: 2022-05-04 to 2022-05-17
+       Location(s) Affected: D02 BLAN Soil plot 1 (HOR.VER.001.000)
+       Date Range: 2022-05-04 to 2022-05-18
+       Location(s) Affected: D02 SERC Soil plot 4 (HOR.VER.004.000)
+       Date Range: 2022-05-06 to 2022-05-11
+       Location(s) Affected: D02 SCBI Soil plot 2 (HOR.VER.002.000)
+       Date Range: 2022-05-06 to 2022-06-02
+       Location(s) Affected: D07 GRSM Soil Plot 4 (HOR.VER.004.000)
+       Date Range: 2022-05-13 to 2022-05-18
+       Location(s) Affected: D02 SERC Soil plot 5 (HOR.VER.005.000)
+       Date Range: 2022-05-15 to 2022-06-07
+       Location(s) Affected: D06 KONA Soil plot 1 (HOR.VER.001.000)
+       Date Range: 2022-05-16 to 2022-06-03
+       Location(s) Affected: D06 KONZ Soil plot 1 (HOR.VER.001.000),D06 KONZ Soil plot 3 (HOR.VER.003.000)
+       Date Range: 2022-05-17 to 2022-07-05
+       Location(s) Affected: D10 RMNP Soil Plot 5 (HOR.VER.005.000)
+       Date Range: 2022-05-19 to 2022-05-26
+       Location(s) Affected: D02 BLAN Soil plot 1 (HOR.VER.001.000)
+       Date Range: 2022-05-19 to 2022-06-02
+       Location(s) Affected: D05 UNDE Soil Plots 2 and 3 (HOR.VER 002.000, 003.000))
+       Date Range: 2022-05-24 to 2022-05-24
+       Location(s) Affected: D02 SCBI Secondary Precip (HOR.VER.000.060)
+       Date Range: 2022-05-24 to 2022-06-03
+       Location(s) Affected: D06 KONZ Soil plot 2 (HOR.VER.002.000)
+       Date Range: 2022-05-27 to 2022-05-31
+       Location(s) Affected: D02 SCBI Soil plot 1 (HOR.VER.001.000)
+       Date Range: 2022-05-27 to 2022-06-01
+       Location(s) Affected: D02 SERC Soil Plot 5 (HOR.VER.005.000)
+       Date Range: 2022-06-07 to 2022-06-21
+       Location(s) Affected: D02 SERC Soil Plot 5 (HOR.VER.005.000)
+       Date Range: 2022-06-08 to 2022-06-30
+       Location(s) Affected: D05 STEI Soil Plot 4 (HOR.VER.004.000)
+       Date Range: 2022-06-10 to 2022-06-28
+       Location(s) Affected: D08 LENO Soil Plot 4 (HOR.VER.004.000)
+       Date Range: 2022-06-11 to 2022-06-20
+       Location(s) Affected: D05 TREE Soil Plot 1 (HOR.VER.001.000)
+       Date Range: 2022-06-14 to 2022-06-21
+       Location(s) Affected: D02 SERC Soil Plot 3 (HOR.VER.003.000)
+       Date Range: 2022-06-15 to 2022-06-29
+       Location(s) Affected: D05 TREE Soil Plot 5 (HOR.VER.005.000)
+       Date Range: 2022-06-16 to 2022-06-21
+       Location(s) Affected: D02 SERC Soil Plot 1 (HOR.VER.001.000)
+       Date Range: 2022-06-17 to 2022-07-12
+       Location(s) Affected: D07 MLBS Soil Plot 1 (HOR.VER.001.000)
+       Date Range: 2022-06-22 to 2022-06-30
+       Location(s) Affected: D02 SCBI Soil Plots 2 and 4 (HOR.VER 002.000 and 004.000)
+       Date Range: 2022-06-26 to 2022-06-29
+       Location(s) Affected: D05 TREE Soil Plot 4 (HOR.VER.004.000)
+       Date Range: 2022-06-26 to 2022-06-30
+       Location(s) Affected: D02 BLAN Soil Plot 3 (HOR.VER.003.000),D02 BLAN Soil Plot 5 (HOR.VER.005.000),D02 BLAN Soil Plots 1 and 4 (HOR.VER 001.000 and 004.000),D05 STEI Soil Plot 1 (HOR.VER.001.000)
+       Date Range: 2022-06-29 to 2022-07-26
+       Location(s) Affected: D08 LENO Soil Plots 1 and 3 (HOR.VER 001.000 and 003.000)
+       Date Range: 2022-07-02 to 2022-07-05
+       Location(s) Affected: D10 RMNP Soil Plot 3 (HOR.VER.003.000)
+       Date Range: 2022-07-03 to 2022-07-05
+       Location(s) Affected: D11 CLBJ Soil Plots 2, 3, 4, and 5(HOR.VER 002.000 - 005.000)
+       Date Range: 2022-07-03 to 2022-07-15
+       Location(s) Affected: D02 SERC Soil Plot 3 (HOR.VER.003.000)
+       Date Range: 2022-07-09 to 2022-07-18
+       Location(s) Affected: D02 BLAN Soil Plot 1 (HOR.VER.001.000),D02 SCBI Soil Plots 2 and 3 (HOR.VER 002.000 and 003.000)
+       Date Range: 2022-07-10 to 2022-07-12
+       Location(s) Affected: D07 MLBS Soil Plot 4 (HOR.VER.004.000)
+       Date Range: 2022-07-10 to 2022-07-13
+       Location(s) Affected: D05 STEI Soil Plot 2 (HOR.VER.002.000)
+       Date Range: 2022-07-14 to 2022-10-11
+       Location(s) Affected: D03 DSNY Soil Plot 2 (HOR.VER.002.000)
+       Date Range: 2022-07-24 to 2022-08-17
+       Location(s) Affected: D10 RMNP Soil Plots 1, 2, 3, and 5 (HOR.VERs 001.000, 002.000, 003.000, 005.000)
+       Date Range: 2022-07-24 to 2022-10-05
+       Location(s) Affected: D10 STER Soil Plot 4 (HOR.VER.004.000)
+       Date Range: 2022-07-25 to 2022-07-26
+       Location(s) Affected: D06 KONZ Soil Plot 2 (HOR.VER.002.000)
+       Date Range: 2022-07-30 to 2022-08-18
+       Location(s) Affected: D08 DELA Soil Plot 2 (HOR.VER.002.000)
+       Date Range: 2022-08-02 to 2022-08-18
+       Location(s) Affected: D08 TALL Soil Plots 1, 3, and 4 (HOR.VERs 001.000, 003.000, 004.000)
+       Date Range: 2022-08-08 to 2022-10-11
+       Location(s) Affected: D03 DSNY Soil Plot 4 (HOR.VER.004.000)
+       Date Range: 2022-08-10 to 2022-08-29
+       Location(s) Affected: D14 SRER Soil Plot 2 (HOR.VER.002.000)
+       Date Range: 2022-08-18 to 2022-08-24
+       Location(s) Affected: D11 CLBJ Soil Plots 2 and 3 (HOR.VERs 002.000 and 003.000)
+       Date Range: 2022-08-22 to 2022-08-24
+       Location(s) Affected: D02 SERC Soil Plots 1 and 3 (HOR.VERs 001.000 and 003.000)
+       Date Range: 2022-08-27 to 2022-09-15
+       Location(s) Affected: D19 DEJU Soil Plot 1 (HOR.VER.001.000)
+       Date Range: 2022-08-28 to 2022-10-20
+       Location(s) Affected: D03 DSNY Soil Plot 5 (HOR.VER.005.000)
+       Date Range: 2022-08-30 to 2022-09-15
+       Location(s) Affected: D02 BLAN Soil Plot 1 (HOR.VER.001.000)
+       Date Range: 2022-09-03 to 2022-09-15
+       Location(s) Affected: D19 DEJU Soil Plot 5 (HOR.VER.005.000)
+       Date Range: 2022-09-09 to 2022-09-27
+       Location(s) Affected: D08 TALL Soil Plot 4 (HOR.VER.004.000)
+       Date Range: 2022-09-09 to 2022-10-05
+       Location(s) Affected: D10 STER Soil Plot 2 (HOR.VER.002.000)
+       Date Range: 2022-09-10 to 2022-09-20
+       Location(s) Affected: D08 LENO Soil Plot 4 (HOR.VER.004.000)
+       Date Range: 2022-09-10 to 2022-10-05
+       Location(s) Affected: D05 STEI Soil Plot 4 (HOR.VER.004.000)
+       Date Range: 2022-09-25 to 2022-10-05
+       Location(s) Affected: D02 SERC Soil Plots 3 and 4 (HOR.VERs 003.000 a nd 004.000)
+       Date Range: 2022-09-30 to 2022-10-06
+       Location(s) Affected: D02 SCBI Soil Plot 1 (HOR.VER.001.000)
+       Date Range: 2022-10-01 to 2022-10-05
+       Location(s) Affected: D02 SERC Soil Plot 1 (HOR.VER.001.000)
+       Date Range: 2022-10-04 to 2022-10-11
+       Location(s) Affected: D02 SCBI Soil Plot 4 (HOR.VER.004.000)
+Resolution Date: 2022-02-28
+Resolution: Applied manual flagging.
+
+Issue Date: 2022-02-07
+Issue: One collection trough became disconnected from throughfall causing precipitation measurements to be less than actual amounts.
+       Date Range: 2021-12-28 to 2022-01-27
+       Location(s) Affected: D06 UKFS Soil Plot 1 (HOR.VER.001.000)
+Resolution Date: 2022-02-07
+Resolution: Trough reattached and data manually flagged
+
+Issue Date: 2022-02-04
+Issue: Heater malfunctioned during freezing temperatures
+       Date Range: 2021-12-05 to 2022-02-15
+       Location(s) Affected: RMNP (HOR.VER: 000.050)
+       Date Range: 2021-12-26 to 2022-01-20
+       Location(s) Affected: STEI (HOR.VER: 000.060)
+Resolution Date: 2022-02-04
+Resolution: Applied manual flagging
+
+Issue Date: 2022-02-04
+Issue: Staff were unable to access site to remove debris screens before snow accumulated
+       Date Range: 2022-01-01 to 2022-02-02
+       Location(s) Affected: MLBS
+Resolution Date: 2022-02-04
+Resolution: Staff removed screens and preserved as much snow as possible.
+
+Issue Date: 2021-04-29
+Issue: Debris inside sensor created false measurements
+       Date Range: 2021-03-03 to 2021-04-26
+       Location(s) Affected: BLUE (HOR.VER: 900.000)
+Resolution Date: 2022-01-10
+Resolution: Debris removed from sensor.
+
+Issue Date: 2022-01-18
+Issue: Data were reprocessed to incorporate minor and/or isolated corrections to quality control thresholds, sensor installation periods, geolocation data, and manual quality flags.
+       Date Range: 2013-01-01 to 2021-10-01
+       Location(s) Affected: All
+Resolution Date: 2022-01-01
+Resolution: Reprocessed provisional data are available now. Reprocessed data previously included in RELEASE-2021 will become available when RELEASE-2022 is issued.
+
+Issue Date: 2021-01-11
+Issue: Safety measures to protect personnel during the COVID-19 pandemic resulted in reduced or canceled maintenance activities for extended periods at NEON sites. Data availability and/or quality may be negatively impacted during this time.
+
+In addition, the annual refresh of sensors and data acquisition systems (DAS) did not occur according to the typical 1-year schedule for many sites. The annual refresh is where freshly calibrated and verified sensors and DAS replace the units in the field.
+       Date Range: 2020-03-23 to 2021-12-31
+       Location(s) Affected: ALL
+Resolution Date: 2021-12-31
+Resolution: NEON reviewed data from all sites and time periods potentially impacted by COVID-19 safety precautions to identify and manually flag suspect data that escaped automated quality tests. Suspect data are indicated by the final quality flag in the data files, which should be used to inform data filtering prior to use. 
+
+Currently, there are no quality flags indicating lack of conformance to an annual sensor refresh interval, but these are in development. Data during this time period should be treated as valid unless marked suspect by other quality flags.
+
+Issue Date: 2021-12-03
+Issue: Sensors were installed in incorrect locations and one was clogged with debris.
+       Date Range: 2021-08-28 to 2021-09-15
+       Location(s) Affected: MLBS (HOR.VER: 002.000, 004.000)
+Resolution Date: 2021-12-03
+Resolution: Data reprocessed to correct locations, clog data flagged and clog was removed.
+
+Issue Date: 2021-10-29
+Issue: Heaters for Secondary Precipitation sensors were not activating at sites that experience freezing temperatures.
+       Date Range: 2014-11-17 to 2021-05-20
+       Location(s) Affected: BIGC, MOAB, MLBS, BLAN, SERC, GRSM, ORNL, KONA
+       Date Range: 2017-01-01 to 2022-02-03
+       Location(s) Affected: SCBI
+Resolution Date: 2021-10-29
+Resolution: Heater fixed and manual flagging applied to a buffer of data surrounding freezing temperatures in provisional data and RELEASE-2022 and later. Note that data prior to 2020-07 in this issue log will remain  unflagged in RELEASE-2021.
+
+Issue Date: 2021-10-29
+Issue: Heater for Secondary Precipitation sensor was not activating at temperature threshold
+       Date Range: 2021-01-19 to 2021-03-22
+       Location(s) Affected: OAES
+Resolution Date: 2021-10-29
+Resolution: Heater fixed and manual flagging applied to a buffer of data surrounding freezing temperatures.
+
+Issue Date: 2021-10-29
+Issue: Heaters for Secondary Precipitation sensors were not activating at sites that experience freezing temperatures.
+       Date Range: 2021-09-04 to 2021-12-20
+       Location(s) Affected: WLOU
+Resolution Date: 2021-10-29
+Resolution: Heater fixed and manual flagging applied to a buffer of data surrounding freezing temperatures in provisional data and RELEASE-2022 and later. Note that data prior to 2020-07 in this issue log will remain  unflagged in RELEASE-2021.
+
+Issue Date: 2021-09-24
+Issue: Sensor streaming errant data causing massive over count in precipitation
+       Date Range: 2021-06-10 to 2021-09-22
+       Location(s) Affected: PUUM (HOR.VER: 000.060)
+       Date Range: 2021-08-31 to 2021-11-22
+       Location(s) Affected: D08 LENO Secondary Precip (HOR.VER.000.060)
+       Date Range: 2021-09-01 to 2021-10-14
+       Location(s) Affected: D08 TALL SP1 (HOR.VER.001.000)
+Resolution Date: 2021-09-24
+Resolution: Redacted data and replaced sensor
+
+Issue Date: 2021-09-10
+Issue: Cable was found to be impacting tipping mechanism of secondary precip sensor
+       Date Range: 2021-05-20 to 2021-09-16
+       Location(s) Affected: D10 STER (HOR.VER.000.040)
+       Date Range: 2021-06-02 to 2021-09-06
+       Location(s) Affected: DEJU (HOR.VER: 000.050)
+       Date Range: 2021-08-07 to 2021-08-31
+       Location(s) Affected: STEI (HOR.VER: 000.060)
+       Date Range: 2021-09-17 to 2021-10-01
+       Location(s) Affected: HARV (HOR.VER.000.060)
+       Date Range: 2021-09-28 to 2021-10-26
+       Location(s) Affected: UNDE (HOR.VER.000.060)
+       Date Range: 2022-01-07 to 2022-02-16
+       Location(s) Affected: D07 MLBS Secondary precip (HOR.VER.000.060)
+       Date Range: 2022-04-26 to 2022-05-07
+       Location(s) Affected: D02 SCBI Secondary precip (HOR.VER.000.060)
+       Date Range: 2022-05-04 to 2022-06-07
+       Location(s) Affected: D09 DCFS Secondary precip (HOR.VER.000.040)
+Resolution Date: 2021-09-10
+Resolution: Cable moved and data manually flagged
+
+Issue Date: 2021-08-27
+Issue: Sensor was not properly configured
+       Date Range: 2021-08-18 to 2021-08-23
+       Location(s) Affected: UKFS (HOR.VER: 000.060)
+Resolution Date: 2021-08-27
+Resolution: Sensor properly configured and data redacted
+
+Issue Date: 2021-08-13
+Issue: Foam insulation fell into the primary precipitation sensor, impacting weight measurements
+       Date Range: 2021-07-28 to 2021-08-03
+       Location(s) Affected: YELL (HOR.VER: 900.000)
+Resolution Date: 2021-08-13
+Resolution: Insulation removed and data flagged
+
+Issue Date: 2021-07-22
+Issue: Heater found to be non-operational
+       Date Range: 2020-11-26 to 2021-04-06
+       Location(s) Affected: BART (HOR.VER: 000.060)
+       Date Range: 2021-01-23 to 2021-03-08
+       Location(s) Affected: SCBI (HOR.VER: 000.060)
+       Date Range: 2021-11-02 to 2021-11-30
+       Location(s) Affected: D05 UNDE (HOR.VER.000.060)
+       Date Range: 2021-11-12 to 2021-11-30
+       Location(s) Affected: D05 STEI (HOR.VER.000.060),D05 TREE (HOR.VER.000.060)
+Resolution Date: 2021-07-22
+Resolution: Applied cautious manual flagging during periods with regularly freezing temps.
+
+Issue Date: 2021-07-12
+Issue: likely sensor clog, recording no rain for extended periods
+       Date Range: 2020-12-01 to 2021-05-01
+       Location(s) Affected: RMNP tower top tipping bucket (000.050)
+       Date Range: 2021-01-01 to 2021-07-13
+       Location(s) Affected: YELL primary precip (900.000) and throughfall sensors in soil plots 2, 4, and 5 (002.000, 004.000, 005.000)
+       Date Range: 2021-04-13 to 2021-05-01
+       Location(s) Affected: CLBJ throughfall soil plot 5 (005.000)
+Resolution Date: 2021-07-12
+Resolution: data manually flagged
+
+Issue Date: 2021-06-16
+Issue: Sensor tipping mechanism was blocked by rubber band
+       Date Range: 2021-02-19 to 2021-08-12
+       Location(s) Affected: MOAB (HOR.VER: 000.040)
+       Date Range: 2021-05-23 to 2021-06-09
+       Location(s) Affected: STER (HOR.VER:000.040)
+       Date Range: 2022-02-04 to 2022-03-07
+       Location(s) Affected: DSNY (HOR.VER.000.040)
+       Date Range: 2022-08-31 to 2022-09-26
+       Location(s) Affected: D10 RMNP Secondary Precip  (HOR.VER.000.050)
+       Date Range: 2022-09-19 to 2022-10-11
+       Location(s) Affected: D01 HARV Secondary Precip  (HOR.VER.000.060)
+Resolution Date: 2021-06-16
+Resolution: Removed rubberband and redacted impacted data
+
+Issue Date: 2018-04-03
+Issue: Throughfall data and associated quality flags should be considered unreliable and of limited use. The sensor frequently becomes blocked with debris and the tipping mechanism frequently falls off its rocker, causing precipitation events to go unrecorded.
+       Date Range: 2012-01-01 to 2021-05-31
+       Location(s) Affected: HARV soil plots 1, 2, 3, 4, 5 (001.000, 002.000, 003.000, 004.000, 005.000); BART soil plots 1, 2, 4, 5 (001.000, 002.000, 004.000, 005.000); BLAN soil plots 1, 2, 4, 5 (001.000, 002.000, 004.000, 005.000); SCBI soil plots 1, 2, 3, 4, 5 (001.000, 002.000, 003.000, 004.000, 005.000); SERC soil plots 1, 3, 4, 5 (001.000, 003.000, 004.000, 005.000); DSNY soil plots 1, 2, 4, 5 (001.000, 002.000, 004.000, 005.000); JERC soil plots 1, 2, 3, 4, 5 (001.000, 002.000, 003.000, 004.000, 005.000); OSBS soil plots 1, 2, 3, 4, 5 (001.000, 002.000, 003.000, 004.000, 005.000); GUAN soil plots 1, 2, 3, 4, 5 (001.000, 002.000, 003.000, 004.000, 005.000); STEI soil plots 1, 2, 4, 5 (001.000, 002.000, 004.000, 005.000); TREE soil plots 1, 2, 4, 5 (001.000, 002.000, 004.000, 005.000); UNDE soil plots 1, 2, 3, 4, 5 (001.000, 002.000, 003.000, 004.000, 005.000); KONA soil plots 1, 2, 4, 5 (001.000, 002.000, 004.000, 005.000); KONZ soil plots 1, 2, 3, 4, 5 (001.000, 002.000, 003.000, 004.000, 005.000); UKFS s,JORN soil plots 1, 2, 4, 5 (001.000, 002.000, 004.000, 005.000); SRER soil plots 1, 2, 3, 4, 5 (001.000, 002.000, 003.000, 004.000, 005.000); ABBY soil plots 1, 2, 4, 5 (001.000, 002.000, 004.000, 005.000); WREF soil plots 1, 2, 3, 4, 5 (001.000, 002.000, 003.000, 004.000, 005.000); SJER soil plots 1, 2, 3, 4, 5 (001.000, 002.000, 003.000, 004.000, 005.000); SOAP soil plots 1, 2, 4, 5 (001.000, 002.000, 004.000, 005.000); TEAK soil plots 1, 2, 4, 5 (001.000, 002.000, 004.000, 005.000); BONA soil plots 1, 2, 3, 4, 5 (001.000, 002.000, 003.000, 004.000, 005.000); DEJU soil plots 1, 2, 4, 5 (001.000, 002.000, 004.000, 005.000).,UKFS soil plots 1, 2, 4, 5 (001.000, 002.000, 004.000, 005.000); GRSM soil plots 1, 3, 4, 5 (001.000, 003.000, 004.000, 005.000); MLBS soil plots 1, 2, 4, 5 (001.000, 002.000, 004.000, 005.000); ORNL soil plots 1, 2, 3, 4, 5 (001.000, 002.000, 003.000, 004.000, 005.000); DELA soil plots 1, 2, 4, 5 (001.000, 002.000, 004.000, 005.000); LENO soil plots 1, 3, 4, 5 (001.000, 003.000, 004.000, 005.000); TALL soil plots 1, 2, 3, 4, 5 (001.000, 002.000, 003.000, 004.000, 005.000); RMNP soil plots 1, 2, 3, 5 (001.000, 002.000, 003.000, 005.000); STER soil plots 1, 2, 4, 5 (001.000, 002.000, 004.000, 005.000); CLBJ soil plots 1, 2, 3, 4, 5 (001.000, 002.000, 003.000, 004.000, 005.000);
+Resolution Date: 2021-05-31
+Resolution: Additional screens were added to the collection troughs to minimize the amount of debris entering the sensor in fall 2017. A more robust design of the tipping mechanism was produced and all sensors were retrofitted between 2018-06 to 2021-05. All potentially impacted throughfall data were manually flagged as suspect prior to the retrofit at each site.
+
+Issue Date: 2021-04-26
+Issue: Malfunction kept sensor from streaming data, causing false zeros to populate.
+       Date Range: 2019-10-11 to 2021-04-28
+       Location(s) Affected: SCBI (HOR.VER: 003.000)
+       Date Range: 2021-06-21 to 2021-06-29
+       Location(s) Affected: DSNY (HOR.VER: 001.000)
+       Date Range: 2021-07-15 to 2021-08-18
+       Location(s) Affected: D08 LENO Secondary Precip (HOR.VER.000.060)
+Resolution Date: 2021-04-26
+Resolution: Data redacted in provisional data and RELEASE-2022 and later. Note that data prior to 2020-07 in this issue log will remain unredacted and unflagged in RELEASE-2021.
+
+Issue Date: 2021-04-07
+Issue: Long period of zero precipitation suspect. Wet deposition data indicates missed preciptation events in spring/summer 2020 and heater was found to be nonfunction in winter 2020-2021.
+       Date Range: 2020-03-01 to 2021-03-01
+       Location(s) Affected: NOGP
+Resolution Date: 2021-04-07
+Resolution: Heater fixed and manual flagging applied in provisional data and RELEASE-2022 and later. Note that data prior to 2020-07 in this issue log will remain unredacted and unflagged in RELEASE-2021.
+
+Issue Date: 2021-04-06
+Issue: Inlet heater of primary precipitation sensor was not functional during times of freezing temperatures.
+       Date Range: 2020-11-01 to 2020-12-08
+       Location(s) Affected: NIWO(HOR.VER:900.000
+Resolution Date: 2021-04-06
+Resolution: Data manually flagged and unit replaced.
+
+Issue Date: 2021-04-02
+Issue: Sensors removed for prescribed burn.
+       Date Range: 2021-03-18 to 2021-04-02
+       Location(s) Affected: DELA (HOR.VER: 001.000, 002.000, 004.000, 005.000)
+       Date Range: 2021-03-24 to 2021-04-15
+       Location(s) Affected: OSBS (HOR.VER: 001.000, 002.000, 003.000, 004.000, 005.000)
+Resolution Date: 2021-04-02
+Resolution: Redacted false 0s from published data.
+
+Issue Date: 2021-03-24
+Issue: Sensor malfunction caused data transmission errors and false zeros to populate. Data redacted.
+       Date Range: 2018-05-08 to 2021-01-27
+       Location(s) Affected: BLAN (HOR.VER: 004.000)
+Resolution Date: 2021-03-24
+Resolution: Data redacted in provisional data and RELEASE-2022 and later. Note that data prior to 2020-07 in this issue log will remain unredacted and unflagged in RELEASE-2021.
+
+Issue Date: 2021-03-18
+Issue: Sensor blocked, erroneously recording no rainfall
+       Date Range: 2019-11-06 to 2021-01-01
+       Location(s) Affected: YELL throughfall soil plot 2 (002.000)
+Resolution Date: 2021-03-18
+Resolution: Data redacted in provisional data and RELEASE-2022 and later. Note that data prior to 2020-07 in this issue log will remain unredacted and unflagged in RELEASE-2021.
+
+Issue Date: 2021-03-04
+Issue: Water poured through sensor to test functionality
+       Date Range: 2021-02-24 to 2021-02-24
+       Location(s) Affected: GRSM (HOR.VER: 004.000)
+       Date Range: 2021-03-02 to 2021-03-02
+       Location(s) Affected: SRER (HOR.VER: 003.000, 005.000)
+       Date Range: 2021-03-23 to 2021-03-23
+       Location(s) Affected: DSNY (HOR.VER: 004.000, 005.000)
+       Date Range: 2021-03-25 to 2021-03-29
+       Location(s) Affected: SOAP (HOR.VER: 001.000, 002.000, 004.000, 005.000)
+       Date Range: 2021-04-02 to 2021-04-02
+       Location(s) Affected: NOGP (HOR.VER: 000.040)
+       Date Range: 2021-04-06 to 2021-04-06
+       Location(s) Affected: SJER (HOR.VER: 001.000, 002.000, 003.000, 004.000, 005.000)
+       Date Range: 2021-05-11 to 2021-05-11
+       Location(s) Affected: TEAK (HOR.VER: 001.000)
+       Date Range: 2021-05-13 to 2021-05-13
+       Location(s) Affected: CLBJ (HOR.VER: 003.000)
+       Date Range: 2021-05-27 to 2021-05-27
+       Location(s) Affected: TEAK (HOR.VER: 004.000)
+       Date Range: 2021-06-14 to 2021-06-14
+       Location(s) Affected: TEAK (HOR.VER: 000.070)
+       Date Range: 2021-06-22 to 2021-06-22
+       Location(s) Affected: TALL(HOR.VER:003.000)
+       Date Range: 2021-07-27 to 2021-07-27
+       Location(s) Affected: UKFS (HOR.VER: 001.000 - 005.000)
+       Date Range: 2021-07-30 to 2021-07-30
+       Location(s) Affected: HEAL (HOR.VER 000.040)
+       Date Range: 2021-08-03 to 2021-08-04
+       Location(s) Affected: WREF (HOR.VER: 003.000)
+       Date Range: 2021-08-04 to 2021-08-04
+       Location(s) Affected: UKFS (HOR.VER: 000.060
+       Date Range: 2021-09-14 to 2021-09-14
+       Location(s) Affected: BONA (HOR.VER: 001.000 - 005.000)
+       Date Range: 2021-09-14 to 2021-09-25
+       Location(s) Affected: BLAN (HOR.VER: 004.000)
+       Date Range: 2021-10-05 to 2021-10-05
+       Location(s) Affected: OAES (HOR.VER.000.040)
+       Date Range: 2021-10-14 to 2021-10-14
+       Location(s) Affected: D06 UKFS (HOR.VER.050.000)
+       Date Range: 2021-11-11 to 2021-11-11
+       Location(s) Affected: D17 SOAP Secondary Precipitation(HOR.VER.000.060)
+       Date Range: 2021-11-16 to 2021-11-16
+       Location(s) Affected: D06 KONZ (HOR.VER.050.000)
+       Date Range: 2021-11-19 to 2021-11-19
+       Location(s) Affected: D06 KONA Secondary Precipitation (HOR.VER.000.040)
+       Date Range: 2021-12-01 to 2021-12-01
+       Location(s) Affected: D06 KONA Soil Plot 1 (HOR.VER.001.000),D06 KONA Soil Plot 4 (HOR.VER.004.000)
+       Date Range: 2022-01-27 to 2022-01-27
+       Location(s) Affected: D06 UKFS Secondary Precipitation (HOR.VER.000.060)
+       Date Range: 2022-02-01 to 2022-02-01
+       Location(s) Affected: D07 MLBS Secondary Precipitation (HOR.VER.000.060)
+       Date Range: 2022-02-16 to 2022-02-16
+       Location(s) Affected: D07 MLBS Secondary Precip (HOR.VER.000.060)
+       Date Range: 2022-02-21 to 2022-02-21
+       Location(s) Affected: D17 SJER all throughfalls (HOR.VER.001.000-005.000)
+       Date Range: 2022-05-17 to 2022-05-17
+       Location(s) Affected: D02 BLAN soil plot 1 (HOR.VER.001.000),D02 BLAN soil plot 2 (HOR.VER.002.000),D02 SCBI Secondary Precip (HOR.VER.000.060)
+       Date Range: 2022-05-18 to 2022-05-18
+       Location(s) Affected: D02 SERC soil plots 4 and 5 (HOR.VER: 004.000, 005.000)
+       Date Range: 2022-06-01 to 2022-06-01
+       Location(s) Affected: D02 SERC Soil Plot 5 (HOR.VER.005.000)
+       Date Range: 2022-06-02 to 2022-06-02
+       Location(s) Affected: D07 GRSM Soil plots 1 and 4 (HOR.VER 001.000 and 004.000)
+       Date Range: 2022-06-07 to 2022-06-07
+       Location(s) Affected: D09 DCFS Secondary Precip (HOR.VER.000.040),D19 DEJU Soil plots 1, 2, 4, 5 (HOR.VER 001.000, 002.000, 004.000, 005.000)
+       Date Range: 2022-06-17 to 2022-06-17
+       Location(s) Affected: D06 KONA Secondary Precip (HOR.VER.000.040)
+       Date Range: 2022-06-30 to 2022-06-30
+       Location(s) Affected: D02 BLAN Soil Plots 1 and 4 (HOR.VER 001.000 and 004.000)
+       Date Range: 2022-07-18 to 2022-07-18
+       Location(s) Affected: D02 BLAN Soil Plot 1 (HOR.VER.001.000),D02 SCBI Soil Plots 2 and 3 (HOR.VER 002.000 and 003.000)
+       Date Range: 2022-07-26 to 2022-07-26
+       Location(s) Affected: D08 LENO Soil Plot 1 (HOR.VER.001.000)
+       Date Range: 2022-08-11 to 2022-08-11
+       Location(s) Affected: D02 SCBI Soil Plot 5 (HOR.VER.005.000)
+       Date Range: 2022-09-06 to 2022-09-06
+       Location(s) Affected: D02 BLAN Soil Plot 1 (HOR.VER.001.000),D14 SRER Soil Plot 2 (HOR.VER.002.000)
+       Date Range: 2022-09-15 to 2022-09-15
+       Location(s) Affected: D02 BLAN Soil Plot 1 (HOR.VER.001.000)
+       Date Range: 2022-10-06 to 2022-10-06
+       Location(s) Affected: D02 SCBI Soil Plot 1 (HOR.VER.001.000)
+       Date Range: 2022-10-11 to 2022-10-11
+       Location(s) Affected: D02 SCBI Soil Plot 4 (HOR.VER.004.000)
+       Date Range: 2022-10-20 to 2022-10-20
+       Location(s) Affected: D03 DSNY Soil Plots 1, 2, and 4 (HOR.VERs 001.000, 002.000, and 004.000))
+Resolution Date: 2021-03-04
+Resolution: Data redacted
+
+Issue Date: 2021-03-02
+Issue: Probable sensor blockage identified during data review.
+       Date Range: 2018-04-15 to 2018-12-27
+       Location(s) Affected: HEAL (000.040)
+       Date Range: 2018-05-09 to 2019-01-18
+       Location(s) Affected: LENO (000.060)
+       Date Range: 2018-10-01 to 2019-12-13
+       Location(s) Affected: TEAK (000.070)
+Resolution Date: 2021-03-02
+Resolution: Manual flagging applied in provisional data and RELEASE-2022 and later. Note that data prior to 2020-07 in this issue log will remain unflagged in RELEASE-2021.
+
+Issue Date: 2021-02-26
+Issue: Sensor clogged with debris and missed precipitation events
+       Date Range: 2020-11-01 to 2021-02-24
+       Location(s) Affected: SJER (HOR.VER: 001.000)
+       Date Range: 2021-01-01 to 2021-03-02
+       Location(s) Affected: CLBJ (HOR.VER: 003.000)
+       Date Range: 2021-01-26 to 2021-02-18
+       Location(s) Affected: TALL (HOR.VER: 001.000)
+       Date Range: 2021-01-30 to 2021-03-12
+       Location(s) Affected: DELA (HOR.VER: 001.000)
+Resolution Date: 2021-02-26
+Resolution: Clog cleared and data manually flagged.
+
+Issue Date: 2021-02-26
+Issue: Missed precipitation events and lack of transmitted data
+       Date Range: 2021-02-02 to 2021-02-17
+       Location(s) Affected: PUUM (HOR.VER:000.060)
+Resolution Date: 2021-02-26
+Resolution: Applied manual flagging
+
+Issue Date: 2021-02-26
+Issue: Sensor clogged with debris and missed precipitation events
+       Date Range: 2021-02-02 to 2021-03-04
+       Location(s) Affected: DSNY (HOR.VER: 004.000, 005.000)
+       Date Range: 2021-03-18 to 2021-04-10
+       Location(s) Affected: BLAN (HOR.VER: 002.000, 003.000)
+       Date Range: 2021-03-23 to 2021-03-29
+       Location(s) Affected: CLBJ (HOR.VER: 004.000)
+       Date Range: 2021-03-30 to 2021-04-13
+       Location(s) Affected: JERC(HOR.VER: 002.000, 003.000, 005.000)
+       Date Range: 2021-03-30 to 2021-04-14
+       Location(s) Affected: SCBI (HOR.VER:001.000)
+       Date Range: 2021-04-12 to 2021-04-20
+       Location(s) Affected: SCBI (HOR.VER: 004.000)
+       Date Range: 2021-04-13 to 2021-04-15
+       Location(s) Affected: CLBJ (HOR.VER: 002.000, 004.000)
+       Date Range: 2021-04-15 to 2021-05-12
+       Location(s) Affected: CLBJ (HOR.VER: 005.000)
+       Date Range: 2021-04-25 to 2021-05-05
+       Location(s) Affected: DSNY (HOR.VER: 001.000, 002.000)
+       Date Range: 2021-04-25 to 2021-06-02
+       Location(s) Affected: RMNP (HOR.VER: 001.000)
+       Date Range: 2021-05-04 to 2021-05-10
+       Location(s) Affected: BLAN(003.000), SERC(005.000)
+       Date Range: 2021-05-04 to 2021-05-17
+       Location(s) Affected: GRSM (HOR.VER: 001.000, 003.000, 005.000)
+       Date Range: 2021-05-20 to 2021-06-29
+       Location(s) Affected: STER (HOR.VER: 004.000, 005.000)
+       Date Range: 2021-05-27 to 2021-06-22
+       Location(s) Affected: TALL (HOR.VER: 001.000, 003.000)
+       Date Range: 2021-05-28 to 2021-06-02
+       Location(s) Affected: BLAN (HOR.VER: 003.000)
+       Date Range: 2021-05-29 to 2021-06-02
+       Location(s) Affected: SCBI (HOR.VER: 001.000)
+       Date Range: 2021-05-30 to 2021-06-02
+       Location(s) Affected: GRSM (HOR.VER: 004.000)
+       Date Range: 2021-06-01 to 2021-09-07
+       Location(s) Affected: OSBS (HOR.VER: 001.000)
+       Date Range: 2021-06-11 to 2021-08-04
+       Location(s) Affected: SCBI (HOR.VER: 002.000, 003.000,004.000)
+       Date Range: 2021-06-14 to 2021-11-10
+       Location(s) Affected: D17 SOAP Secondary Precipitation (HOR.VER.000.006)
+       Date Range: 2021-06-28 to 2021-06-30
+       Location(s) Affected: CLBJ (HOR.VER: 001.000, 004.000)
+       Date Range: 2021-07-05 to 2021-07-21
+       Location(s) Affected: STEI (HOR.VER: 005.000)
+       Date Range: 2021-07-08 to 2021-08-30
+       Location(s) Affected: MLBS (HOR.VER: 001.000)
+       Date Range: 2021-07-15 to 2021-07-20
+       Location(s) Affected: KONA (HOR.VER: 004.000)
+       Date Range: 2021-07-22 to 2021-08-03
+       Location(s) Affected: TREE (HOR.VER: 002.000, 004.000)
+       Date Range: 2021-07-22 to 2021-10-08
+       Location(s) Affected: D08 LENO (HOR.VER.001.000 , 003.000, 004.000, 005,000)
+       Date Range: 2021-07-24 to 2021-09-07
+       Location(s) Affected: DEJU (HOR.VER: 002.000)
+       Date Range: 2021-07-26 to 2021-09-14
+       Location(s) Affected: BONA (HOR.VER: 001.000)
+       Date Range: 2021-08-09 to 2021-09-08
+       Location(s) Affected: DSNY (HOR.VER: 004,000, 005.000)
+       Date Range: 2021-08-13 to 2021-09-07
+       Location(s) Affected: BLAN (HOR.VER: 001.000, 002.000, 003.000)
+       Date Range: 2021-08-14 to 2021-09-01
+       Location(s) Affected: RMNP (HOR.VER: 002.000, 003.000, 005.000)
+       Date Range: 2021-08-19 to 2021-09-14
+       Location(s) Affected: STER (HOR.VER: 004.000, 005.000)
+       Date Range: 2021-08-20 to 2021-09-10
+       Location(s) Affected: SCBI (HOR.VER: 002.000)
+       Date Range: 2021-08-21 to 2021-08-23
+       Location(s) Affected: KONA (HOR.VER: 004.000)
+       Date Range: 2021-08-23 to 2021-08-31
+       Location(s) Affected: STEI (HOR.VER:  005.000), TREE (HOR.VER: 004.000)
+       Date Range: 2021-09-01 to 2021-09-15
+       Location(s) Affected: SCBI (HOR.VER: 001.000)
+       Date Range: 2021-09-02 to 2021-09-28
+       Location(s) Affected: RMNP (HOR.VER: 002.000, 005.000)
+       Date Range: 2021-09-03 to 2021-09-09
+       Location(s) Affected: KONZ (HOR.VER: 002.000)
+       Date Range: 2021-09-04 to 2021-09-08
+       Location(s) Affected: UNDE (HOR.VER: 004.000, 005.000)
+       Date Range: 2021-09-13 to 2021-10-06
+       Location(s) Affected: D05 TREE (HOR.VER.004.000)
+       Date Range: 2021-09-14 to 2021-09-24
+       Location(s) Affected: D05 UNDE (HOR.VER.003.000)
+       Date Range: 2021-09-16 to 2021-09-25
+       Location(s) Affected: BLAN (HOR.VER: 004.000)
+       Date Range: 2021-09-16 to 2021-10-08
+       Location(s) Affected: D16 ABBY (HOR.VER.002.000)
+       Date Range: 2021-10-10 to 2021-11-22
+       Location(s) Affected: D04 GUAN SP1, SP3, SP4, SP5 (HOR.VER.001.000, HOR.VER.003.000, HOR.VER.004.000, HOR.VER.005.000)
+       Date Range: 2021-11-17 to 2021-11-23
+       Location(s) Affected: D10 RMNP Soil Plot 3 (HOR.VER.003.000) and Soil Plot 2 (HOR.VER.002.000)
+       Date Range: 2021-11-22 to 2022-01-20
+       Location(s) Affected: D08 DELA SP1, SP4, SP5 (HOR.VER.001.000, 004.000, 005.000)
+       Date Range: 2021-11-27 to 2021-12-01
+       Location(s) Affected: D11 CLBJ Soil Plot 5 (HOR.VER.005.000)
+       Date Range: 2021-12-17 to 2021-12-30
+       Location(s) Affected: D07 ORNL SP4 (HOR.VER.004.000)
+       Date Range: 2022-01-05 to 2022-01-08
+       Location(s) Affected: D02 BLAN SP1 (HOR.VER.002.000)
+       Date Range: 2022-02-03 to 2022-02-08
+       Location(s) Affected: D07 GRSM SP1 (HOR.VER.001.000)
+       Date Range: 2022-02-13 to 2022-02-28
+       Location(s) Affected: D02 BLAN SP1 (HOR.VER.001.000)
+       Date Range: 2022-02-16 to 2022-02-28
+       Location(s) Affected: D11 CLBJ SP1 (HOR.VER.001.000) and SP5 (HOR.VER.005.000)
+       Date Range: 2022-02-28 to 2022-03-17
+       Location(s) Affected: D08 TALL SP2 (HOR.VER.002.000)
+       Date Range: 2022-03-03 to 2022-03-24
+       Location(s) Affected: D20 PUUM SP2 (HOR.VER.002.000)
+Resolution Date: 2021-02-26
+Resolution: Clog cleared and data manually flagged.
+
+Issue Date: 2021-02-24
+Issue: Power loss caused missed precipitation events
+       Date Range: 2020-10-19 to 2020-11-23
+       Location(s) Affected: RMNP (HOR.VER:000.050)
+       Date Range: 2021-02-18 to 2021-02-23
+       Location(s) Affected: ABBY (HOR.VER:004.000)
+       Date Range: 2021-04-06 to 2021-05-06
+       Location(s) Affected: TALL (HOR.VER: 000.050)
+       Date Range: 2021-04-13 to 2021-04-23
+       Location(s) Affected: TEAK (all HOR.VER locations)
+       Date Range: 2021-05-02 to 2021-09-14
+       Location(s) Affected: BONA (HOR.VER: 005.000)
+       Date Range: 2021-05-03 to 2021-05-08
+       Location(s) Affected: LENO (HOR.VER: 001.000, 003.000, 004.000. 005.000)
+       Date Range: 2021-05-09 to 2021-05-11
+       Location(s) Affected: ABBY (HOR.VER:004.000)
+       Date Range: 2021-06-05 to 2021-09-22
+       Location(s) Affected: D08 LENO (HOR.VER.005.000)
+       Date Range: 2021-06-10 to 2021-07-13
+       Location(s) Affected: UNDE (HOR.VER: 001.000-005.000, 000.060)
+       Date Range: 2021-06-23 to 2021-07-23
+       Location(s) Affected: SOAP (HOR.VER: 001.000-005.000, 000.060)
+       Date Range: 2021-07-15 to 2021-08-04
+       Location(s) Affected: UKFS (HOR.VER: 000.060)
+       Date Range: 2021-07-27 to 2021-07-28
+       Location(s) Affected: TREE, UNDE, STEI (HOR.VER: 001.000-005.000, 000.060)
+       Date Range: 2021-10-12 to 2021-10-12
+       Location(s) Affected: D17 SOAP (HOR.VER.001.000-005.000)
+       Date Range: 2021-11-18 to 2021-11-19
+       Location(s) Affected: D20 PUUM all soil plot throughfalls (HOR.VER.001.000-005.000) and secondary precip (HOR.VER.000.060)
+       Date Range: 2022-01-05 to 2022-02-15
+       Location(s) Affected: D03 JERC SP4 throughfall (HOR.VER.004.000)
+       Date Range: 2022-01-21 to 2022-02-07
+       Location(s) Affected: D17 TEAK secondary precip (HOR.VER.000.070) and all throughfalls (HOR.VER.001.000-005.000)
+       Date Range: 2022-02-25 to 2022-03-06
+       Location(s) Affected: D17 TEAK secondary precip (HOR.VER.000.070) and all throughfalls (HOR.VER.001.000-005.000)
+       Date Range: 2022-05-12 to 2022-05-17
+       Location(s) Affected: D02 BLAN soil plot 2 throughfall (HOR.VER.002.000)
+       Date Range: 2022-05-15 to 2022-06-30
+       Location(s) Affected: D05 STEI Soil Plot 5 (HOR.VER.005.000)
+       Date Range: 2022-05-22 to 2022-05-26
+       Location(s) Affected: D05 STEI secondary precip (HOR.VER.000.060)
+Resolution Date: 2021-02-24
+Resolution: Data redacted and power restored
+
+Issue Date: 2021-01-29
+Issue: Power loss caused missed events and snow accumulation in sensor
+       Date Range: 2020-12-24 to 2021-01-07
+       Location(s) Affected: WLOU (HOR.VER: 220.000)
+Resolution Date: 2021-01-29
+Resolution: Manual flagging applied
+
+Issue Date: 2021-01-29
+Issue: Sensors removed in preparation for a burn
+       Date Range: 2021-01-19 to 2021-02-07
+       Location(s) Affected: JERC (HOR.VER: 001.000-005.000)
+Resolution Date: 2021-01-29
+Resolution: Data redacted until sensors can be replaced.
+
+Issue Date: 2018-04-25
+Issue: False tip recorded for Secondary Precipitation sensor.
+       Date Range: 2017-09-24 to 2017-09-24
+       Location(s) Affected: ABBY (HOR.VER: 000.050)
+       Date Range: 2019-12-09 to 2019-12-09
+       Location(s) Affected: TEAK(HOR.VER: 000.070)
+       Date Range: 2020-02-25 to 2020-02-25
+       Location(s) Affected: BIGC (HOR.VER: 220.000)
+       Date Range: 2020-12-29 to 2020-12-29
+       Location(s) Affected: STER (HOR.VER: 000.040)
+Resolution Date: 2020-12-29
+Resolution: Applied manual flagging.
+
+Issue Date: 2020-12-17
+Issue: Freezing temperature caused non-heated sensor to accumulate ice
+       Date Range: 2020-12-01 to 2020-12-01
+       Location(s) Affected: DELA (HOR.VER: 000.060)
+Resolution Date: 2020-12-17
+Resolution: applied manual flagging to time of freezing and delayed tips after thawing
+
+Issue Date: 2020-12-16
+Issue: Site experienced flooding, causing erratic data and data loss
+       Date Range: 2019-12-25 to 2020-08-27
+       Location(s) Affected: DELA(HOR.VER 004.000, 005.000)
+Resolution Date: 2020-12-16
+Resolution: Repaired sensors and flagged data
+
+Issue Date: 2020-12-07
+Issue: Sensor was pulled out of specification during annual replacement
+       Date Range: 2020-11-11 to 2020-11-23
+       Location(s) Affected: RMNP (HOR.VER: 003.000)
+Resolution Date: 2020-12-07
+Resolution: Sensor returned to specification and manual flagging applied.
+
+Issue Date: 2020-11-16
+Issue: Sensors heaved out of ground and caused collection orifice to be out of specifications. Start date is last known time in specification prior to discovery.
+       Date Range: 2020-07-31 to 2020-09-11
+       Location(s) Affected: BONA - all locations
+Resolution Date: 2020-11-16
+Resolution: Sensors positions were fixed and entire time period of uncertainty was manually flagged.
+
+Issue Date: 2021-03-16
+Issue: Sensor recorded false data during maintenance.
+       Date Range: 2020-11-03 to 2020-11-03
+       Location(s) Affected: BIGC (HOR.VER: 220.000)
+Resolution Date: 2020-11-03
+Resolution: Maintenance completed.
+
+Issue Date: 2020-09-03
+Issue: Secondary Precipitation sensor not recording precipitation events reflected in changes in surface water pressure.
+       Date Range: 2020-01-31 to 2020-08-05
+       Location(s) Affected: BIGC
+Resolution Date: 2020-09-03
+Resolution: Sensor manually tested and flagging applied.
+
+Issue Date: 2020-09-03
+Issue: During COVID-19 shutdown sensor filled with flying ants that likely manipulated precipitation measurement. This is a recurring issue with the sensor at this site.
+       Date Range: 2020-07-22 to 2020-08-18
+       Location(s) Affected: JORN (HOR.VER: 000.040)
+Resolution Date: 2020-09-03
+Resolution: Unit cleaned and data manually flagged.
+
+Issue Date: 2020-08-11
+Issue: Secondary precipitation heater cable was found to be impacting sensor measurements. Date of impact was difficult to determine, so data was cautiously flagged from date of install of sensor
+       Date Range: 2019-10-21 to 2020-06-24
+       Location(s) Affected: HEAL
+Resolution Date: 2020-08-11
+Resolution: Flagging applied from data of sensor install to date of fix.
+
+Issue Date: 2020-08-06
+Issue: Sensor damaged by winds
+       Date Range: 2020-06-10 to 2020-10-01
+       Location(s) Affected: STER (HOR.VER: 000.040)
+Resolution Date: 2020-08-06
+Resolution: Data redacted until sensor can be replaced
+
+Issue Date: 2020-03-26
+Issue: The alpha and beta quality metric multipliers used for computing the final quality flag were swapped in processing. The final quality flag is raised when alphaQM*m + betaQM*n >= 20%. The multiplier m should be set to 2 and n should be set to 1, but these values were swapped, making it slightly harder to raise the final quality flag. These multipliers were corrected in data produced after the resolution date. Data prior to the resolution date will be reprocessed prior to the first NEON data release. An additional changelog comment will be entered at that time.
+       Date Range: 2020-01-08 to 2020-01-08
+       Location(s) Affected: All primary precip locations
+Resolution Date: 2020-06-10
+Resolution: 2020-01-08: Processing code updated.
+2020-06-10: All data reprocessed with corrected algorithm.
+
+Issue Date: 2020-06-10
+Issue: All data were reprocessed with the most recent algorithms, quality control thresholds, and/or other metadata to improve overall data coverage and quality. Notes have been added to the logs of previously identified issues that have been corrected.
+       Date Range: 2013-01-01 to 2020-06-10
+       Location(s) Affected: All
+Resolution Date: 2020-06-10
+Resolution: Informational log only.
+
+Issue Date: 2020-06-09
+Issue: Likely sensor malfunction causing large spans of zeros in dataset
+       Date Range: 2016-01-23 to 2016-04-12
+       Location(s) Affected: JERC (HOR.VER: 000.060)
+       Date Range: 2018-06-09 to 2020-09-17
+       Location(s) Affected: GUIL (HOR.VER: 220.000)
+       Date Range: 2018-06-23 to 2019-01-22
+       Location(s) Affected: TALL (HOR.VER: 000.050)
+Resolution Date: 2020-06-09
+Resolution: Manual flagging applied.
+
+Issue Date: 2020-05-30
+Issue: Loss of power, causing tipping bucket data to populate at potentially false zeros.
+       Date Range: 2016-08-19 to 2016-09-23
+       Location(s) Affected: LAJA
+       Date Range: 2016-09-28 to 2016-10-06
+       Location(s) Affected: LAJA
+       Date Range: 2017-09-18 to 2018-04-29
+       Location(s) Affected: LAJA
+       Date Range: 2018-02-21 to 2018-03-08
+       Location(s) Affected: WLOU
+       Date Range: 2018-11-07 to 2018-12-18
+       Location(s) Affected: BIGC
+       Date Range: 2019-05-10 to 2019-05-21
+       Location(s) Affected: CUPE
+       Date Range: 2019-06-06 to 2020-07-24
+       Location(s) Affected: WLOU
+       Date Range: 2019-07-22 to 2019-07-31
+       Location(s) Affected: CUPE
+       Date Range: 2019-08-02 to 2019-08-06
+       Location(s) Affected: WLOU
+       Date Range: 2019-09-19 to 2020-01-31
+       Location(s) Affected: BIGC
+       Date Range: 2020-02-13 to 2020-09-01
+       Location(s) Affected: LENO
+       Date Range: 2020-03-21 to 2020-03-26
+       Location(s) Affected: PUUM all throughfalls (HOR.VER 001.000, 002.000, 003.000, 004.000, 005.000)
+       Date Range: 2020-03-30 to 2020-04-29
+       Location(s) Affected: GUIL
+       Date Range: 2020-05-08 to 2020-05-23
+       Location(s) Affected: GUIL
+       Date Range: 2020-05-18 to 2020-07-02
+       Location(s) Affected: WREF(HOR.VER 005.000
+       Date Range: 2020-06-10 to 2020-06-16
+       Location(s) Affected: TALL
+       Date Range: 2020-07-10 to 2020-10-08
+       Location(s) Affected: DSNY (HOR.VER: 004.000)
+       Date Range: 2020-12-30 to 2021-01-12
+       Location(s) Affected: DELA (HOR.VER: 002.000)
+       Date Range: 2021-08-28 to 2021-12-28
+       Location(s) Affected: D06 KONZ HOR.VER.002.000
+Resolution Date: 2020-05-30
+Resolution: Data flagged and redacted
+
+Issue Date: 2020-04-20
+Issue: Primary Precipitation sensor was shut down and covered because it could not be calibrated due to COVID-19 related halt to field work.
+       Date Range: 2020-03-30 to 2020-03-30
+       Location(s) Affected: HARV
+       Date Range: 2020-03-30 to 2020-03-31
+       Location(s) Affected: BLUE, CLBJ
+       Date Range: 2020-03-30 to 2020-04-06
+       Location(s) Affected: PRIN
+       Date Range: 2020-04-11 to 2020-04-13
+       Location(s) Affected: TOOL
+       Date Range: 2020-05-12 to 2020-05-19
+       Location(s) Affected: CLBJ
+       Date Range: 2020-05-24 to 2020-05-26
+       Location(s) Affected: CLBJ
+       Date Range: 2020-08-28 to 2020-10-16
+       Location(s) Affected: CLBJ
+Resolution Date: 2020-04-20
+Resolution: Data flagged between time sensor was covered and when it was powered down.
+
+Issue Date: 2020-04-16
+Issue: Throughfall sensors were removed for a fire, but due to COVID-19 closure field staff were unable to return them to the field post burn.
+       Date Range: 2020-03-17 to 2020-06-18
+       Location(s) Affected: KONZ  (HOR.VER: 001.000, 002.000, 003.000, 004.000)
+       Date Range: 2020-03-17 to 2020-06-29
+       Location(s) Affected: KONZ (HOR.VER:005.000)
+Resolution Date: 2020-04-16
+Resolution: Data redacted until sensors can be returned to their locations.
+
+Issue Date: 2020-02-01
+Issue: Communication failure caused inaccurate readings
+       Date Range: 2019-12-27 to 2020-02-01
+       Location(s) Affected: TOOK (HOR.VER: 220.000)
+Resolution Date: 2020-02-01
+Resolution: Data manually flagged.
+
+Issue Date: 2020-02-01
+Issue: Earthquakes in region caused rain water to spill and data total accumulation data to become inaccurate
+       Date Range: 2020-01-06 to 2020-03-31
+       Location(s) Affected: GUAN (HOR.VER: 900.000)
+Resolution Date: 2020-02-01
+Resolution: Data manually flagged.
+
+Issue Date: 2020-02-01
+Issue: Earthquakes in region caused sensors to become unstable
+       Date Range: 2020-01-06 to 2020-07-08
+       Location(s) Affected: GUAN (HOR.VER: 000.001, 000.002, 000.003, 000.004, 000.005)
+Resolution Date: 2020-02-01
+Resolution: Data manually flagged.
+
+Issue Date: 2020-02-01
+Issue: Sensor Cable found unplugged, rain events  were missed
+       Date Range: 2020-01-19 to 2020-01-22
+       Location(s) Affected: MLBS (HOR.VER: 000.060)
+Resolution Date: 2020-02-01
+Resolution: Sensor cable plugged in and manual flagging applied.
+
+Issue Date: 2020-01-24
+Issue: Tree fall hit throughfall collector trough knocking it out of alignment.
+       Date Range: 2019-12-03 to 2020-07-02
+       Location(s) Affected: D16 WREF soil plot 5 (HOR.VER: 005.000)
+Resolution Date: 2020-01-24
+Resolution: Repairs completed
+
+Issue Date: 2019-11-18
+Issue: suspected sensor malfunction resulting in zero precipitation inconsistent with soil moisture data
+       Date Range: 2017-01-07 to 2018-04-21
+       Location(s) Affected: OAES
+       Date Range: 2017-09-28 to 2019-06-25
+       Location(s) Affected: BARR
+Resolution Date: 2019-11-18
+Resolution: manually flagged affected data
+
+Issue Date: 2019-11-18
+Issue: suspected clogged throughfall precipitation resulting in inconsistent readings compared to other sensors
+       Date Range: 2018-07-09 to 2018-12-04
+       Location(s) Affected: BART soil plot 1 (HOR.VER: 001.000)
+       Date Range: 2018-10-28 to 2019-07-29
+       Location(s) Affected: MLBS soil plot 5 (HOR.VER:  005.000)
+Resolution Date: 2019-11-18
+Resolution: manually flagged affected data
+
+Issue Date: 2019-11-18
+Issue: Tree fell on sensor impacting data collection area.
+       Date Range: 2019-10-31 to 2020-07-21
+       Location(s) Affected: BART(HOR.VER: 002.000)
+Resolution Date: 2019-11-18
+Resolution: Applied manual flagging
+
+Issue Date: 2019-09-27
+Issue: Incorrect calibration file applied to primary precipitation data resulting in data to be over-flagged.
+       Date Range: 2018-12-31 to 2019-09-25
+       Location(s) Affected: ARIK
+       Date Range: 2019-01-02 to 2019-09-25
+       Location(s) Affected: ORNL
+       Date Range: 2019-01-15 to 2019-09-25
+       Location(s) Affected: OSBS
+       Date Range: 2019-01-16 to 2019-09-25
+       Location(s) Affected: WREF
+       Date Range: 2019-02-20 to 2019-09-25
+       Location(s) Affected: SCBI
+       Date Range: 2019-02-21 to 2019-09-25
+       Location(s) Affected: CLBJ
+       Date Range: 2019-03-04 to 2019-09-25
+       Location(s) Affected: BLUE, KONZ
+       Date Range: 2019-04-03 to 2019-09-25
+       Location(s) Affected: YELL
+       Date Range: 2019-04-23 to 2019-09-25
+       Location(s) Affected: HARV,PUUM
+       Date Range: 2019-04-29 to 2019-09-25
+       Location(s) Affected: REDB
+       Date Range: 2019-06-21 to 2019-09-25
+       Location(s) Affected: WOOD
+       Date Range: 2019-06-27 to 2019-09-25
+       Location(s) Affected: UNDE
+       Date Range: 2019-06-29 to 2019-09-25
+       Location(s) Affected: ONAQ
+       Date Range: 2019-08-22 to 2019-09-25
+       Location(s) Affected: CPER
+Resolution Date: 2019-09-27
+Resolution: Correct calibration applied and data reprocessed.
+
+Issue Date: 2019-09-27
+Issue: Intermittent power failures caused unreliable data collection
+       Date Range: 2019-09-01 to 2019-10-14
+       Location(s) Affected: D16 ABBY soil plot 5 (HOR.VER: 005.000)
+       Date Range: 2019-10-11 to 2019-10-17
+       Location(s) Affected: STEI(HOR.VER:005.000)
+       Date Range: 2019-10-21 to 2019-11-12
+       Location(s) Affected: STEI(HOR.VER:005.000)
+       Date Range: 2020-06-17 to 2020-06-17
+       Location(s) Affected: DELA throughfall sensors (HOR.VER: 001.000, 002.000. 004.000. 005.000)
+       Date Range: 2020-07-20 to 2020-07-24
+       Location(s) Affected: DCFS (HOR.VER: 000.040)
+       Date Range: 2020-07-22 to 2020-08-12
+       Location(s) Affected: KONZ (HOR.VER: 003.000)
+Resolution Date: 2019-09-27
+Resolution: Applied manual flagging.
+
+Issue Date: 2019-07-25
+Issue: Dead frog found in primary precipitation sensor.
+       Date Range: 2019-05-21 to 2019-06-06
+       Location(s) Affected: CLBJ (HOR.VER: 900.000)
+Resolution Date: 2019-07-25
+Resolution: Applied manual flagging. Sensor recalibrated.
+
+Issue Date: 2019-07-18
+Issue: Primary precipitation sensor streaming uncalibrated data.
+       Date Range: 2019-07-11 to 2019-08-01
+       Location(s) Affected: GUAN (HOR.VER: 900.000)
+       Date Range: 2019-07-16 to 2019-07-17
+       Location(s) Affected: ARIK (HOR.VER: 900.000)
+       Date Range: 2020-07-01 to 2020-08-10
+       Location(s) Affected: NIWO(HOR.VER: 900.000)
+Resolution Date: 2019-07-18
+Resolution: Applied manual flagging.
+
+Issue Date: 2019-05-30
+Issue: Throughfall sensor powered down for leveling.
+       Date Range: 2019-05-22 to 2019-05-22
+       Location(s) Affected: GRSM (HOR.VER: 005.000)
+Resolution Date: 2019-05-30
+Resolution: Applied manual flagging.
+
+Issue Date: 2019-05-21
+Issue: Throughfall sensor only intermittently recording tips and missed events when there was other throughfall precipitation data.
+       Date Range: 2019-05-08 to 2019-05-18
+       Location(s) Affected: KONZ (HOR.VER: 004.000)
+Resolution Date: 2019-05-21
+Resolution: Applied manual flagging.
+
+Issue Date: 2019-04-11
+Issue: False tips recorded for secondary precipitation and soil plot 5 throughfall sensors.
+       Date Range: 2019-04-10 to 2019-04-10
+       Location(s) Affected: UKFS (HOR.VERs: 000.060 (secondary precip) and 005.000 (SP5 throughfall))
+Resolution Date: 2019-04-11
+Resolution: Applied manual flagging.
+
+Issue Date: 2019-03-15
+Issue: Data suspect due to snow drifting of the DFIR.
+       Date Range: 2019-01-02 to 2019-04-09
+       Location(s) Affected: WOOD (HOR.VER: 900.000)
+Resolution Date: 2019-03-15
+Resolution: Applied manual flagging.
+
+Issue Date: 2019-02-19
+Issue: Incorrect calibration information was applied to data for some sites and time periods.
+       Date Range: 2018-01-01 to 2018-10-31
+       Location(s) Affected: All locations.
+Resolution Date: 2019-02-19
+Resolution: Data reprocessed with correct calibration information.
+
+Issue Date: 2019-02-19
+Issue: Secondary precipitation sensor not recording tips and missed events when throughfall data recorded.
+       Date Range: 2019-01-22 to 2019-02-12
+       Location(s) Affected: RMNP (HOR.VER: 000.050)
+       Date Range: 2019-03-13 to 2019-12-19
+       Location(s) Affected: TREE (HOR.VER: 000.060)
+       Date Range: 2019-03-14 to 2019-05-22
+       Location(s) Affected: GRSM (HOR.VER: 000.060)
+       Date Range: 2019-03-15 to 2019-04-02
+       Location(s) Affected: KONA (HOR.VER: 000.040)
+       Date Range: 2019-05-22 to 2019-07-22
+       Location(s) Affected: KONA (HOR.VER: 000.040)
+       Date Range: 2019-08-16 to 2020-02-06
+       Location(s) Affected: STEI (HOR.VER: 000.060)
+       Date Range: 2019-08-18 to 2019-09-26
+       Location(s) Affected: UKFS (HOR.VER: 000.060)
+       Date Range: 2020-07-15 to 2020-08-18
+       Location(s) Affected: JORN (HOR.VERs: 001.000, 004.000)
+       Date Range: 2022-01-01 to 2022-01-06
+       Location(s) Affected: SCBI Secondary precip (HOR.VER.000.060)
+Resolution Date: 2019-02-19
+Resolution: Applied manual flagging.
+
+Issue Date: 2018-12-26
+Issue: Bad calibration data for DFIR.
+       Date Range: 2018-11-26 to 2019-02-25
+       Location(s) Affected: BONA (HOR.VER: 900.000)
+Resolution Date: 2018-12-26
+Resolution: Applied manual flagging.
+
+Issue Date: 2018-12-06
+Issue: False tips recorded for secondary precipitation sensor.
+       Date Range: 2018-12-04 to 2018-12-04
+       Location(s) Affected: STER (HOR.VER: 000.040)
+       Date Range: 2018-12-05 to 2018-12-05
+       Location(s) Affected: ORNL (HOR.VER: 000.060)
+       Date Range: 2019-04-17 to 2019-04-17
+       Location(s) Affected: TEAK (HOR.VER: 000.070)
+       Date Range: 2019-05-06 to 2019-05-06
+       Location(s) Affected: HARV (HOR.VER: 000.060)
+       Date Range: 2019-07-30 to 2019-07-30
+       Location(s) Affected: OAES (HOR.VER: 000.040)
+       Date Range: 2019-09-05 to 2019-09-05
+       Location(s) Affected: WLOU (HOR.VER: 220.000)
+Resolution Date: 2018-12-06
+Resolution: Applied manual flagging.
+
+Issue Date: 2018-11-15
+Issue: Unsuccessful DFIR calibration.
+       Date Range: 2018-11-03 to 2018-11-03
+       Location(s) Affected: CLBJ (HOR.VER: 900.000)
+Resolution Date: 2018-11-15
+Resolution: Re-calibrated sensor and applied manual flagging.
+
+Issue Date: 2018-10-25
+Issue: Tipping mechanism on secondary precipitation sensor not functioning and recording events.
+       Date Range: 2018-10-05 to 2018-10-18
+       Location(s) Affected: TREE (HOR.VER: 000.060)
+Resolution Date: 2018-10-25
+Resolution: Fixed sensor and applied manual flagging.
+
+Issue Date: 2018-10-24
+Issue: Throughfall sensor clogged and not recording precipitation events.
+       Date Range: 2018-09-19 to 2020-01-21
+       Location(s) Affected: ABBY (HOR.VER: 002.000)
+       Date Range: 2018-10-04 to 2018-10-11
+       Location(s) Affected: KONZ (HOR.VER: 002.000 and 003.000)
+       Date Range: 2018-10-06 to 2018-10-31
+       Location(s) Affected: UKFS (HOR.VER: 001.000)
+       Date Range: 2018-11-07 to 2018-11-12
+       Location(s) Affected: SERC (HOR.VER: 004.00)
+       Date Range: 2019-03-30 to 2019-04-30
+       Location(s) Affected: YELL (HOR.VER: 002.000)
+       Date Range: 2019-03-30 to 2019-07-24
+       Location(s) Affected: YELL (HOR.VER: 003.000)
+       Date Range: 2019-05-20 to 2019-05-23
+       Location(s) Affected: UKFS (HOR.VER: 001.000)
+       Date Range: 2019-07-09 to 2019-08-13
+       Location(s) Affected: PUUM (HOR.VER: 001.000)
+       Date Range: 2019-07-31 to 2019-08-26
+       Location(s) Affected: UKFS (HOR.VER: 005.000)
+       Date Range: 2019-08-07 to 2019-08-19
+       Location(s) Affected: UKFS (HOR.VER: 001.000)
+       Date Range: 2019-08-17 to 2019-08-26
+       Location(s) Affected: UKFS (HOR.VER: 004.000)
+       Date Range: 2019-09-07 to 2020-01-21
+       Location(s) Affected: ABBY (HOR.VER: 004.000)
+       Date Range: 2019-09-30 to 2019-10-22
+       Location(s) Affected: UNDE (HOR.VER: 004.000)
+       Date Range: 2019-10-17 to 2019-10-22
+       Location(s) Affected: UNDE (HOR.VER: 002.000)
+       Date Range: 2019-10-24 to 2019-11-20
+       Location(s) Affected: CLBJ (HOR.VER: 005.000)
+       Date Range: 2019-10-29 to 2020-05-19
+       Location(s) Affected: TALL (HOR.VER: 001.000)
+       Date Range: 2019-11-08 to 2020-02-11
+       Location(s) Affected: SERC (HOR.VER:004.000, 005.000)
+       Date Range: 2019-12-13 to 2019-12-18
+       Location(s) Affected: JORN (HOR.VER: 001.000)
+       Date Range: 2019-12-13 to 2020-03-11
+       Location(s) Affected: OSBS(HOR.VER: 001.000)
+       Date Range: 2019-12-16 to 2020-02-11
+       Location(s) Affected: SERC (HOR.VER:003.000)
+       Date Range: 2019-12-17 to 2020-03-10
+       Location(s) Affected: GRSM(HOR.VER: 004.000)
+       Date Range: 2020-01-08 to 2020-02-10
+       Location(s) Affected: GRSM (HOR.VER: 003.000)
+       Date Range: 2020-02-22 to 2020-07-15
+       Location(s) Affected: SRER(HOR.VER: 003.000)
+       Date Range: 2020-03-08 to 2020-07-15
+       Location(s) Affected: SRER(HOR.VER: 001.000)
+       Date Range: 2020-03-18 to 2020-06-29
+       Location(s) Affected: OSBS (HOR.VER:002.000)
+       Date Range: 2020-03-18 to 2020-07-15
+       Location(s) Affected: SRER(HOR.VER: 005.000)
+       Date Range: 2020-03-20 to 2020-05-19
+       Location(s) Affected: TALL(HOR.VER: 003.000, 004.000, 005.000)
+       Date Range: 2020-04-20 to 2020-06-04
+       Location(s) Affected: STEI (HOR.VER: 001.000, 004.000. 005.000)
+       Date Range: 2020-04-20 to 2020-06-09
+       Location(s) Affected: JERC (HOR.VER:001.000, 002.000, 003.000, 004.000, 005.000)
+       Date Range: 2020-04-27 to 2020-06-02
+       Location(s) Affected: UNDE (HOR.VERs: 003.000, 004.000)
+       Date Range: 2020-05-16 to 2020-09-15
+       Location(s) Affected: CLBJ( HOR.VER: 001.000, 003.000. 004.000)
+       Date Range: 2020-05-25 to 2020-07-07
+       Location(s) Affected: DEJU (HOR.VER:002.000, 004.000)
+       Date Range: 2020-06-02 to 2020-06-15
+       Location(s) Affected: OSBS (HOR.VER: 001.000)
+       Date Range: 2020-06-15 to 2020-07-31
+       Location(s) Affected: BONA (HOR.VER: 001.000, 002.000, 004.000)
+       Date Range: 2020-06-19 to 2020-09-01
+       Location(s) Affected: RMNP (HOR.VER: 001.000, 003.000, 005.000)
+       Date Range: 2020-07-06 to 2020-07-23
+       Location(s) Affected: STEI (HOR.VER 001.000, 004.000)
+       Date Range: 2020-08-09 to 2020-08-25
+       Location(s) Affected: BONA (HOR.VER: 001.000)
+       Date Range: 2020-08-22 to 2020-11-10
+       Location(s) Affected: TALL (HOR.VER 001.000, 003.000, 004.000)
+       Date Range: 2020-08-22 to 2020-11-17
+       Location(s) Affected: LENO (HOR.VER 001.000)
+       Date Range: 2020-08-27 to 2020-10-15
+       Location(s) Affected: CLBJ (HOR.VER: 005.000)
+       Date Range: 2020-08-30 to 2020-09-09
+       Location(s) Affected: PUUM (HOR.VER: 001.000)
+       Date Range: 2020-09-09 to 2020-09-15
+       Location(s) Affected: STEI (HOR.VER: 004.000)
+       Date Range: 2020-09-23 to 2020-09-26
+       Location(s) Affected: WREF (HOR.VER: 003.000)
+       Date Range: 2020-09-29 to 2020-11-10
+       Location(s) Affected: MLBS (HOR.VER: 005.000)
+       Date Range: 2020-12-29 to 2020-12-31
+       Location(s) Affected: KONZ(HOR.VER:002.000)
+Resolution Date: 2018-10-24
+Resolution: Sensor cleaned and applied manual flagging.
+
+Issue Date: 2018-10-08
+Issue: Throughfall locations were swapped in database
+       Date Range: 2012-01-01 to 2018-10-08
+       Location(s) Affected: D11 CLBJ soil plots 3 and 4 (HOR.VER: 003.000, 004.000)
+Resolution Date: 2018-10-08
+Resolution: Locations corrected in database
+
+Issue Date: 2018-09-28
+Issue: Throughfall sensor clogged and false tips recorded.
+       Date Range: 2018-09-01 to 2018-09-10
+       Location(s) Affected: UKFS (HOR.VER: 005.000)
+Resolution Date: 2018-09-28
+Resolution: Sensor cleaned and applied manual flagging.
+
+Issue Date: 2018-09-21
+Issue: Throughfall sensor not functioning and recording tips.
+       Date Range: 2018-08-25 to 2018-09-19
+       Location(s) Affected: STEI (HOR.VER: 005.000)
+       Date Range: 2019-03-28 to 2019-05-01
+       Location(s) Affected: STEI (HOR.VER: 005.000)
+Resolution Date: 2018-09-21
+Resolution: Applied manual flagging.
+
+Issue Date: 2018-09-20
+Issue: Tipping mechanism for Secondary precipitation sensor malfunctioned.
+       Date Range: 2018-09-04 to 2018-09-19
+       Location(s) Affected: TREE (HOR.VER: 000.060)
+Resolution Date: 2018-09-20
+Resolution: Applied manual flagging. Fixed tipping mechanism.
+
+Issue Date: 2018-07-05
+Issue: Secondary precipitation sensor not registering tips during high precipitation events due to debris.
+       Date Range: 2018-05-16 to 2018-06-27
+       Location(s) Affected: SERC (000.060)
+Resolution Date: 2018-07-05
+Resolution: Applied manual flagging.
+
+Issue Date: 2018-05-04
+Issue: Sensor not re-calibrated after Ermine fell into DFIR and was removed with some fluid.
+       Date Range: 2017-03-21 to 2018-05-16
+       Location(s) Affected: TOOL Primary Precipitation sensor (HOR.VER 900.000)
+Resolution Date: 2018-05-04
+Resolution: Sensor re-calibrated and manual flagging applied.
+
+Issue Date: 2018-04-24
+Issue: Secondary Precipitation sensor only intermittently recording tips and missed events when there was Throughfall data.
+       Date Range: 2017-08-01 to 2018-01-04
+       Location(s) Affected: SOAP (HOR.VER: 000.060)
+Resolution Date: 2018-04-24
+Resolution: Applied manual flagging.
+
+Issue Date: 2018-04-13
+Issue: During rain events, Secondary Precipitation not streaming tips when Throughfall recording tips.
+       Date Range: 2016-05-15 to 2016-05-17
+       Location(s) Affected: SERC (HOR.VER: 000.060)
+Resolution Date: 2018-04-13
+Resolution: Applied manual flagging.
+
+Issue Date: 2018-04-12
+Issue: Primary precipitation sensor failed calibration.
+       Date Range: 2018-04-10 to 2018-04-11
+       Location(s) Affected: WREF (HOR.VER: 900.000)
+Resolution Date: 2018-04-12
+Resolution: Sensor re-calibrated. Manual flagging applied in interval between failed and successful calibration.
+
+Issue Date: 2018-04-12
+Issue: False Secondary Precipitation tip recorded due to cleaning.
+       Date Range: 2018-04-11 to 2018-04-11
+       Location(s) Affected: STER (HOR.VER: 000.040)
+Resolution Date: 2018-04-12
+Resolution: Applied manual flagging.
+
+Issue Date: 2018-04-02
+Issue: The Primary Precipitation DFIR failed calibration after emptying.
+       Date Range: 2018-03-29 to 2018-06-07
+       Location(s) Affected: HARV (HOR.VER: 900.000)
+Resolution Date: 2018-03-30
+Resolution: Sensor passed calibration and manual flagging was applied.
+
+Issue Date: 2018-03-30
+Issue: The alter shield around the primary precipitation sensor was removed to investigate unusual signals in the sensor raw data. This may have impacted data quality relating to precipitation events during this time, particularly during windy conditions.
+       Date Range: 2018-03-23 to 2018-03-28
+       Location(s) Affected: CLBJ (HOR.VER: 900.000)
+Resolution Date: 2018-03-28
+Resolution: The alter shield was reinstalled. Data were flagged.
+
+Issue Date: 2018-03-21
+Issue: The alter shield around the primary precipitation sensor was stabilized to investigate unusual signals in the sensor raw data. This may have impacted data quality relating to precipitation events during this time, particularly during windy conditions.
+       Date Range: 2018-03-06 to 2018-03-13
+       Location(s) Affected: CLBJ (HOR.VER: 900.000)
+Resolution Date: 2018-03-13
+Resolution: The stabilization of the alter shield around the primary precipitation sensor was stopped.
+
+Issue Date: 2018-03-08
+Issue: Multiple issues encountered with primary precipitation sensor including snow cap and false recording.
+       Date Range: 2018-01-19 to 2018-03-06
+       Location(s) Affected: BONA (HOR.VER: 900.000)
+Resolution Date: 2018-03-08
+Resolution: Applied manual flagging.
+
+Issue Date: 2018-03-09
+Issue: Heater for secondary precipitation non-operational, causing snow accumulation in bucket and lagged and/or missed precipitation event recordings.
+       Date Range: 2017-09-09 to 2018-05-01
+       Location(s) Affected: TOOK (HOR.VER: 220.000)
+       Date Range: 2017-09-28 to 2018-04-05
+       Location(s) Affected: HEAL (HOR.VER: 000.040)
+       Date Range: 2017-10-09 to 2018-04-05
+       Location(s) Affected: DEJU (HOR.VER: 000.050)
+       Date Range: 2017-10-30 to 2018-01-26
+       Location(s) Affected: TREE (HOR.VER: 000.060)
+       Date Range: 2018-01-10 to 2018-04-18
+       Location(s) Affected: WLOU (HOR.VER: 220.000)
+       Date Range: 2018-05-17 to 2018-05-20
+       Location(s) Affected: TOOK (220.000)
+       Date Range: 2018-06-10 to 2018-06-15
+       Location(s) Affected: TOOK (HOR.VER: 220.000)
+       Date Range: 2018-10-12 to 2018-10-31
+       Location(s) Affected: TOOK (HOR.VER: 220.00)
+       Date Range: 2018-11-10 to 2018-12-11
+       Location(s) Affected: WLOU (HOR.VER: 220.000)
+       Date Range: 2018-11-20 to 2018-12-12
+       Location(s) Affected: DCFS (HOR.VER: 000.040)
+       Date Range: 2018-12-02 to 2019-03-15
+       Location(s) Affected: WREF(HOR.VER:000.080)
+       Date Range: 2019-10-01 to 2020-01-22
+       Location(s) Affected: WLOU (HOR.VER:  220.000)
+       Date Range: 2020-10-22 to 2020-11-19
+       Location(s) Affected: UNDE (HOR.VER: 000.060)
+Resolution Date: 2018-01-26
+Resolution: Heater repaired. Manual flagging applied during affected date range.
+
+Issue Date: 2018-01-18
+Issue: Secondary precip bucket not functioning.
+       Date Range: 2016-10-11 to 2017-10-01
+       Location(s) Affected: KONA
+       Date Range: 2017-08-04 to 2018-04-12
+       Location(s) Affected: MOAB
+       Date Range: 2018-01-31 to 2018-04-16
+       Location(s) Affected: WREF
+       Date Range: 2018-05-23 to 2018-06-21
+       Location(s) Affected: KONA (HOR.VER: 000.040)
+       Date Range: 2018-08-11 to 2019-09-16
+       Location(s) Affected: JORN (HOR.VER: 000.040)
+       Date Range: 2019-05-20 to 2019-11-30
+       Location(s) Affected: DEJU (HOR.VER: 000.050)
+       Date Range: 2019-08-19 to 2019-12-27
+       Location(s) Affected: TOOK (HOR.VER: 220.000)
+       Date Range: 2020-01-11 to 2020-01-14
+       Location(s) Affected: ORNL (HOR.VER: 000.060)
+       Date Range: 2020-11-23 to 2020-12-29
+       Location(s) Affected: STER(HOR.VER:000.040)
+Resolution Date: 2018-01-18
+Resolution: Applied manual flagging.
+
+Issue Date: 2018-01-09
+Issue: Belfort gauge temporarily out of commission.
+       Date Range: 2017-12-20 to 2018-06-05
+       Location(s) Affected: NIWO
+Resolution Date: 2018-01-09
+Resolution: Sensor reinstalled.
+
+Issue Date: 2018-01-05
+Issue: Throughfall tipping bucket stopped functioning and recording tips.
+       Date Range: 2017-08-05 to 2018-01-19
+       Location(s) Affected: DSNY
+       Date Range: 2017-10-26 to 2018-01-19
+       Location(s) Affected: HARV
+       Date Range: 2017-10-27 to 2017-12-31
+       Location(s) Affected: UNDE
+       Date Range: 2018-12-11 to 2019-10-28
+       Location(s) Affected: TALL (HOR.VER: 001.000)
+       Date Range: 2019-02-18 to 2020-09-15
+       Location(s) Affected: DELA (HOR.VER: 002.000)
+       Date Range: 2019-05-17 to 2019-05-30
+       Location(s) Affected: STEI (HOR.VER: 005.000)
+       Date Range: 2019-08-30 to 2020-09-23
+       Location(s) Affected: DELA (HOR.VER: 001.000)
+       Date Range: 2019-09-11 to 2020-03-10
+       Location(s) Affected: DSNY (HOR.VER 001.000),DSNY (HOR.VER 002.000, 005.000)
+       Date Range: 2019-10-02 to 2020-01-14
+       Location(s) Affected: DSNY (HOR.VER 004.000)
+       Date Range: 2019-12-05 to 2019-12-11
+       Location(s) Affected: ORNL (HOR.VER:001.000)
+       Date Range: 2019-12-23 to 2019-12-30
+       Location(s) Affected: ORNL(HOR.VER: 005.000)
+Resolution Date: 2018-01-05
+Resolution: Applied manual flagging.
+
+Issue Date: 2018-01-05
+Issue: False throughfall sensor tips recorded.
+       Date Range: 2017-10-05 to 2017-10-05
+       Location(s) Affected: OSBS
+       Date Range: 2017-11-06 to 2017-11-06
+       Location(s) Affected: SRER
+       Date Range: 2017-11-14 to 2017-11-14
+       Location(s) Affected: DSNY
+       Date Range: 2017-12-12 to 2017-12-12
+       Location(s) Affected: UKFS
+       Date Range: 2018-09-18 to 2018-09-18
+       Location(s) Affected: DELA (HOR.VER: 001.000 and 004.000)
+       Date Range: 2018-09-24 to 2018-10-24
+       Location(s) Affected: HARV (HOR.VER: 005.000)
+       Date Range: 2018-10-11 to 2018-10-11
+       Location(s) Affected: KONZ (HOR.VER: 001.000, 002.000, 003.000, 004.000, and 005.000)
+       Date Range: 2019-05-06 to 2019-05-06
+       Location(s) Affected: SOAP (HOR.VER: 002.000)
+       Date Range: 2019-08-16 to 2019-08-16
+       Location(s) Affected: CLBJ (HOR.VER: 001.000, 002.000, 004.000, and 005.000)
+       Date Range: 2019-09-03 to 2019-09-03
+       Location(s) Affected: CLBJ (HOR.VER: 001.000-005.000)
+       Date Range: 2019-10-01 to 2019-10-01
+       Location(s) Affected: TALL (HOR.VER: 001.000, 002.000, 003.000)
+       Date Range: 2019-11-05 to 2019-11-05
+       Location(s) Affected: GRSM (HOR.VER: 001.000)
+       Date Range: 2019-12-03 to 2019-12-03
+       Location(s) Affected: KONA (HOR.VER: 000.040, 001.000)
+       Date Range: 2020-01-14 to 2020-01-14
+       Location(s) Affected: DSNY (HOR.VER: 004.000)
+       Date Range: 2020-02-06 to 2020-02-17
+       Location(s) Affected: PUUM (HOR.VER: 002.000)
+       Date Range: 2020-03-10 to 2020-03-10
+       Location(s) Affected: DSNY all throughfalls (HOR.VER 001.000, 002.000, 003.000, 004.000)
+       Date Range: 2020-05-19 to 2020-05-19
+       Location(s) Affected: TALL (HOR.VER: 001.000, 003.000, 004.000, 005.000)
+       Date Range: 2020-06-10 to 2020-06-10
+       Location(s) Affected: ORNL (HOR.VER: 001.000)
+       Date Range: 2020-07-23 to 2020-07-23
+       Location(s) Affected: TALL (HOR.VER: 003.000, 004.000, 005.000)
+       Date Range: 2020-08-20 to 2020-08-20
+       Location(s) Affected: KONZ(HOR.VER: 003.000)
+       Date Range: 2020-09-15 to 2020-09-15
+       Location(s) Affected: CLBJ (HOR.VER 004.000)
+       Date Range: 2020-09-23 to 2020-09-23
+       Location(s) Affected: DELA (HOR.VER: 001.000, 004.000)
+       Date Range: 2020-12-07 to 2020-12-07
+       Location(s) Affected: KONA
+       Date Range: 2020-12-31 to 2020-12-31
+       Location(s) Affected: KONZ (HOR.VER: 002.000)
+Resolution Date: 2017-12-12
+Resolution: Applied manual flagging.
+
+
+
+
+
+ADDITIONAL INFORMATION
+
+----------------------
+
+
+
+
+KNOWN ISSUE 2020-06-10: A review of the precipitation data product (part of DP1.00006.001) identified that spurious trace precipitation is recorded frequently for all primary precipitation sensors (secondary and throughfall precipitation buckets are unaffected). While actual precipitation events are typically distinguishable from spurious events in the time series, the presence of spurious trace precipitation can add significantly to precipitation totals when aggregated over long intervals.  Sums of spurious precipitation range from < 0.05 mm/day to > 0.5mm/day, with higher sums generally corresponding to sites and time periods of greater evaporative demand.  We are working on additional quality control algorithms in order to detect and remove spurious trace events in the primary precipitation data product. An updated algorithm is expected sometime in 2022.
+
+
+
+NEON DATA POLICY AND CITATION GUIDELINES
+
+----------------------------------------
+
+
+
+A citation statement is available in this data product's detail page at https://data.neonscience.org/data-products/DP1.00006.001. Please visit https://www.neonscience.org/data-policy for more information about NEON's data policy and citation guidelines.
+
+
+
+DATA QUALITY AND VERSIONING
+---------------------------
+
+NEON data are initially published with a status of Provisional, in which updates to data and/or processing algorithms will occur on an as-needed basis, and query reproducibility cannot be guaranteed. Once data are published as part of a Data Release, they are no longer provisional, and are associated with a stable DOI.
+
+To learn more about provisional versus released data, please visit https://www.neonscience.org/data-revisions-releases.

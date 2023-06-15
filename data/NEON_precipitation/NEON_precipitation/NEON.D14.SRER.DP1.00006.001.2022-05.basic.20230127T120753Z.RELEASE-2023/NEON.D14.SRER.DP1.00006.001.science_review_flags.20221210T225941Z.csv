@@ -1,0 +1,2 @@
+srfID,startDateTime,endDateTime,domainID,siteID,dpID,fieldName,horizontalPosition,verticalPosition,srfValue,srfValueJustification,createDateTime,lastUpdateDateTime
+57381,2022-02-24T17:00:00Z,2022-09-06T18:54:00Z,D14,SRER,DP1.00006.001,TFPrecipSciRvwQF,003,000,2,"Per DQTT0002486, sensor was not powered and recorded false zeros",2022-09-13T11:16:05Z,2022-09-13T11:16:05Z
