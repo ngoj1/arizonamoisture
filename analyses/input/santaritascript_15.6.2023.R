@@ -151,7 +151,7 @@ srer2018_focusplot <- sfocus18_order %>%
   ggplot(aes(x = time_unit,y = priPrecipBulk)) + 
   geom_line(linewidth = 0.5,colour = "#20A16F") +
   geom_point(size = 2, colour = "#20A16F") +
-  labs(x="Time of Year by half-hours (2018)",
+  labs(x="Time of Year by half-hours, days 175 to 300 (2018)",
        y="Bulk precipitation (mm)") +
   theme_clean() +
   theme(axis.title = element_text(size = 12,face = "bold",),
@@ -163,7 +163,7 @@ srer2019_focusplot <- sfocus19_order %>%
   ggplot(aes(x = time_unit,y = priPrecipBulk)) + 
   geom_line(linewidth = 0.5,colour = "#20A16F") +
   geom_point(size = 2, colour = "#20A16F") +
-  labs(x="Time of Year by half-hours (2019)",
+  labs(x="Time of Year by half-hours, days 175 to 300 (2019)",
        y="Bulk precipitation (mm)") +
   theme_clean() +
   theme(axis.title = element_text(size = 12,face = "bold",),
@@ -175,7 +175,7 @@ srer2020_focusplot <- sfocus20_order %>%
   ggplot(aes(x = time_unit,y = priPrecipBulk)) + 
   geom_line(linewidth = 0.5,colour = "#20A16F") +
   geom_point(size = 2, colour = "#20A16F") +
-  labs(x="Time of Year by half-hours (2020)",
+  labs(x="Time of Year by half-hours, days 175 to 300 (2020)",
        y="Bulk precipitation (mm)") +
   theme_clean() +
   theme(axis.title = element_text(size = 12,face = "bold",),
@@ -187,7 +187,7 @@ srer2021_focusplot <- sfocus21_order %>%
   ggplot(aes(x = time_unit,y = priPrecipBulk)) + 
   geom_line(linewidth = 0.5,colour = "#20A16F") +
   geom_point(size = 2, colour = "#20A16F") +
-  labs(x="Time of Year by half-hours (2021)",
+  labs(x="Time of Year by half-hours, days 175 to 300 (2021)",
        y="Bulk precipitation (mm)") +
   theme_clean() +
   theme(axis.title = element_text(size = 12,face = "bold",),
@@ -199,7 +199,7 @@ srer2022_focusplot <- sfocus22_order %>%
   ggplot(aes(x = time_unit,y = priPrecipBulk)) + 
   geom_line(linewidth = 0.5,colour = "#20A16F") +
   geom_point(size = 2, colour = "#20A16F") +
-  labs(x="Time of Year by half-hours (2022)",
+  labs(x="Time of Year by half-hours, days 175 to 300 (2022)",
        y="Bulk precipitation (mm)") +
   theme_clean() +
   theme(axis.title = element_text(size = 12,face = "bold",),
@@ -208,15 +208,15 @@ srer2022_focusplot <- sfocus22_order %>%
 srer2022_focusplot
 
 # saving plots
-ggsave("SRERplots/srer2018_plot.png",plot=srer2018_plot,scale=1,dpi=600)
-ggsave("SRERplots/srer2019_plot.png",plot=srer2019_plot,scale=1,dpi=600)
-ggsave("SRERplots/srer2020_plot.png",plot=srer2020_plot,scale=1,dpi=600)
-ggsave("SRERplots/srer2021_plot.png",plot=srer2021_plot,scale=1,dpi=600)
-ggsave("SRERplots/srer2022_plot.png",plot=srer2022_plot,scale=1,dpi=600)
-
-ggsave("SRERplots/srer2018_focusplot.png",plot=srer2018_focusplot,scale=1,dpi=600)
-ggsave("SRERplots/srer2019_focusplot.png",plot=srer2019_focusplot,scale=1,dpi=600)
-ggsave("SRERplots/srer2020_focusplot.png",plot=srer2020_focusplot,scale=1,dpi=600)
-ggsave("SRERplots/srer2021_focusplot.png",plot=srer2021_focusplot,scale=1,dpi=600)
-ggsave("SRERplots/srer2022_focusplot.png",plot=srer2022_focusplot,scale=1,dpi=600)
+# ggsave("SRER_plots/srer2018_plot.png",plot=srer2018_plot,scale=1,dpi=600)
+# ggsave("SRER_plots/srer2019_plot.png",plot=srer2019_plot,scale=1,dpi=600)
+# ggsave("SRER_plots/srer2020_plot.png",plot=srer2020_plot,scale=1,dpi=600)
+# ggsave("SRER_plots/srer2021_plot.png",plot=srer2021_plot,scale=1,dpi=600)
+# ggsave("SRER_plots/srer2022_plot.png",plot=srer2022_plot,scale=1,dpi=600)
+# 
+ggsave("SRER_plots/srer2018_focusplot.png",plot=srer2018_focusplot,scale=1,dpi=600)
+ggsave("SRER_plots/srer2019_focusplot.png",plot=srer2019_focusplot,scale=1,dpi=600)
+ggsave("SRER_plots/srer2020_focusplot.png",plot=srer2020_focusplot,scale=1,dpi=600)
+ggsave("SRER_plots/srer2021_focusplot.png",plot=srer2021_focusplot,scale=1,dpi=600)
+ggsave("SRER_plots/srer2022_focusplot.png",plot=srer2022_focusplot,scale=1,dpi=600)
 
