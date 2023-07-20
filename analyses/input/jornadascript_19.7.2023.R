@@ -1221,8 +1221,8 @@ jor301facet_plot_a <- jornada301a %>%
   geom_point(size = 2) +
   labs(x="Day of Year",
        y="Average volumetric water content",
-       colour ="Soil Depth (cm)",
-       shape = "Soil Depth (cm)") +
+       colour ="301 Soil Depth (cm)",
+       shape = "301 Soil Depth (cm)") +
   facet_wrap(~Year,ncol = 1) +
   theme_clean() + 
   theme(axis.title = element_text(size = 12,face = "bold",),
@@ -1235,7 +1235,7 @@ jor301facet_plot_a <- jornada301a %>%
   scale_shape_manual(values = c("circle","square","triangle"),
                      labels = c(10,20,30))
 jor301facet_plot_a
-# ggsave("plots/jor301facet_plot_a.png",plot=jor301facet_plot_a,scale=1,dpi=600)
+ggsave("plots/jor301facet_plot_a.png",plot=jor301facet_plot_a,scale=1,dpi=600)
 
 jor301facet_plot_b <- jornada301b %>%
   ggplot(aes(x=YearDay,y=VWC_avg,colour=Depth,shape=Depth)) +
@@ -1243,8 +1243,8 @@ jor301facet_plot_b <- jornada301b %>%
   geom_point(size = 2) +
   labs(x="Day of Year",
        y="Average volumetric water content",
-       colour ="Soil Depth (cm)",
-       shape = "Soil Depth (cm)") +
+       colour ="301 Soil Depth (cm)",
+       shape = "301 Soil Depth (cm)") +
   facet_wrap(~Year,ncol = 1) +
   theme_clean() + 
   theme(axis.title = element_text(size = 12,face = "bold",),
@@ -1257,7 +1257,7 @@ jor301facet_plot_b <- jornada301b %>%
   scale_shape_manual(values = c("circle","square","triangle"),
                      labels = c(10,20,30))
 jor301facet_plot_b
-# ggsave("plots/jor301facet_plot_b.png",plot=jor301facet_plot_b,scale=1,dpi=600)
+ggsave("plots/jor301facet_plot_b.png",plot=jor301facet_plot_b,scale=1,dpi=600)
 
 jor301facet_plot_c <- jornada301c %>%
   ggplot(aes(x=YearDay,y=VWC_avg,colour=Depth,shape=Depth)) +
@@ -1265,8 +1265,8 @@ jor301facet_plot_c <- jornada301c %>%
   geom_point(size = 2) +
   labs(x="Day of Year",
        y="Average volumetric water content",
-       colour ="Soil Depth (cm)",
-       shape = "Soil Depth (cm)") +
+       colour ="301 Soil Depth (cm)",
+       shape = "301 Soil Depth (cm)") +
   facet_wrap(~Year,ncol = 1) +
   theme_clean() + 
   theme(axis.title = element_text(size = 12,face = "bold",),
@@ -1279,7 +1279,7 @@ jor301facet_plot_c <- jornada301c %>%
   scale_shape_manual(values = c("circle","square","triangle"),
                      labels = c(10,20,30))
 jor301facet_plot_c
-# ggsave("plots/jor301facet_plot_c.png",plot=jor301facet_plot_c,scale=1,dpi=600)
+ggsave("plots/jor301facet_plot_c.png",plot=jor301facet_plot_c,scale=1,dpi=600)
 
 jor302facet_plot_a <- jornada302a %>%
   ggplot(aes(x=YearDay,y=VWC_avg,colour=Depth,shape=Depth)) +
@@ -1287,8 +1287,8 @@ jor302facet_plot_a <- jornada302a %>%
   geom_point(size = 2) +
   labs(x="Day of Year",
        y="Average volumetric water content",
-       colour ="Soil Depth (cm)",
-       shape = "Soil Depth (cm)") +
+       colour ="302 Soil Depth (cm)",
+       shape = "302 Soil Depth (cm)") +
   facet_wrap(~Year,ncol = 1) +
   theme_clean() + 
   theme(axis.title = element_text(size = 12,face = "bold",),
@@ -1301,7 +1301,7 @@ jor302facet_plot_a <- jornada302a %>%
   scale_shape_manual(values = c("circle","square","triangle"),
                      labels = c(10,20,30))
 jor302facet_plot_a
-# ggsave("plots/jor302facet_plot_a.png",plot=jor302facet_plot_a,scale=1,dpi=600)
+ggsave("plots/jor302facet_plot_a.png",plot=jor302facet_plot_a,scale=1,dpi=600)
 
 jor302facet_plot_b <- jornada302b %>%
   ggplot(aes(x=YearDay,y=VWC_avg,colour=Depth,shape=Depth)) +
@@ -1309,8 +1309,8 @@ jor302facet_plot_b <- jornada302b %>%
   geom_point(size = 2) +
   labs(x="Day of Year",
        y="Average volumetric water content",
-       colour ="Soil Depth (cm)",
-       shape = "Soil Depth (cm)") +
+       colour ="302 Soil Depth (cm)",
+       shape = "302 Soil Depth (cm)") +
   facet_wrap(~Year,ncol = 1) +
   theme_clean() + 
   theme(axis.title = element_text(size = 12,face = "bold",),
@@ -1323,7 +1323,7 @@ jor302facet_plot_b <- jornada302b %>%
   scale_shape_manual(values = c("circle","square","triangle"),
                      labels = c(10,20,30))
 jor302facet_plot_b
-# ggsave("plots/jor302facet_plot_b.png",plot=jor302facet_plot_b,scale=1,dpi=600)
+ggsave("plots/jor302facet_plot_b.png",plot=jor302facet_plot_b,scale=1,dpi=600)
 
 jor302facet_plot_c <- jornada302c %>%
   ggplot(aes(x=YearDay,y=VWC_avg,colour=Depth,shape=Depth)) +
@@ -1331,8 +1331,8 @@ jor302facet_plot_c <- jornada302c %>%
   geom_point(size = 2) +
   labs(x="Day of Year",
        y="Average volumetric water content",
-       colour ="Soil Depth (cm)",
-       shape = "Soil Depth (cm)") +
+       colour ="302 Soil Depth (cm)",
+       shape = "302 Soil Depth (cm)") +
   facet_wrap(~Year,ncol = 1) +
   theme_clean() + 
   theme(axis.title = element_text(size = 12,face = "bold",),
@@ -1345,17 +1345,17 @@ jor302facet_plot_c <- jornada302c %>%
   scale_shape_manual(values = c("circle","square","triangle"),
                      labels = c(10,20,30))
 jor302facet_plot_c
-# ggsave("plots/jor302facet_plot_c.png",plot=jor302facet_plot_c,scale=1,dpi=600)
+ggsave("plots/jor302facet_plot_c.png",plot=jor302facet_plot_c,scale=1,dpi=600)
 
 # version 2 with all 9 plots on one page
 jor301facet_plot_combined <- jornada301d %>%
   ggplot(aes(x=YearDay,y=VWC_avg,colour=Depth,shape=Depth)) +
   geom_line(linewidth = 0.5) +
-  geom_point(size = 2) +
+  geom_point(size = 1) +
   labs(x="Day of Year",
        y="Average volumetric water content",
-       colour ="Soil Depth (cm)",
-       shape = "Soil Depth (cm)") +
+       colour ="301 Soil Depth (cm)",
+       shape = "301 Soil Depth (cm)") +
   facet_wrap(~Year,ncol = 3,nrow=3) +
   theme_few() + 
   theme(axis.title = element_text(size = 12,face = "bold",),
@@ -1373,11 +1373,11 @@ jor301facet_plot_combined
 jor302facet_plot_combined <- jornada302d %>%
   ggplot(aes(x=YearDay,y=VWC_avg,colour=Depth,shape=Depth)) +
   geom_line(linewidth = 0.5) +
-  geom_point(size = 2) +
+  geom_point(size = 1) +
   labs(x="Day of Year",
        y="Average volumetric water content",
-       colour ="Soil Depth (cm)",
-       shape = "Soil Depth (cm)") +
+       colour ="302 Soil Depth (cm)",
+       shape = "302 Soil Depth (cm)") +
   facet_wrap(~Year,ncol = 3,nrow=3) +
   theme_few() + 
   theme(axis.title = element_text(size = 12,face = "bold",),
