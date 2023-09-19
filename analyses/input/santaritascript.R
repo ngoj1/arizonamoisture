@@ -106,33 +106,52 @@ srer2022_plot
 # It appears that the time where rainfall is highest is somewhere between doy 175 to 300, so maybe we can focus on those using the 30min precipitation data
 srerfocus2018 <- srer %>%
   filter(year == "2018") %>%
-  mutate(hour = (time(endDateTime))/2) %>%
+  # mutate(time = format(endDateTime,"%D:%H:%M")) %>%
   filter(between(doy,175,300))
 srerfocus2019 <- srer %>%
   filter(year == "2019") %>%
-  mutate(hour = (time(endDateTime))/2) %>%
+  # mutate(time = format(endDateTime,"%D:%H:%M")) %>%
   filter(between(doy,175,300))
 srerfocus2020 <- srer %>%
   filter(year == "2020") %>%
-  mutate(hour = (time(endDateTime))/2) %>%
+  # mutate(time = format(endDateTime,"%D:%H:%M")) %>%
   filter(between(doy,175,300))
 srerfocus2021 <- srer %>%
   filter(year == "2021") %>%
-  mutate(hour = (time(endDateTime))/2) %>%
+  # mutate(time = format(endDateTime,"%D:%H:%M")) %>%
   filter(between(doy,175,300))
 srerfocus2022 <- srer %>%
   filter(year == "2022") %>%
-  mutate(hour = (time(endDateTime))/2) %>%
+  # mutate(time = format(endDateTime,"%D:%H:%M")) %>%
   filter(between(doy,175,300))
 
-View(srerfocus2022)
+# the commented out lines were used previously to generate a unique timestamp for each entry instead of having hours of the day repeat over and over, but then it just made the x axis impossible to read and I couldn't change the axis intervals
+
+# ordering them by doy so that when I create a "time unit" for my x axis (instead of using endDateTime which will just show as months or the time column which will overcrowd the axis) those units will be in numerical order
+sfocus18_order <- srerfocus2018 %>%
+  arrange(as.character(doy))
+sfocus19_order <- srerfocus2019 %>%
+  arrange(as.character(doy))
+sfocus20_order <- srerfocus2020 %>%
+  arrange(as.character(doy))
+sfocus21_order <- srerfocus2021 %>%
+  arrange(as.character(doy))
+sfocus22_order <- srerfocus2022 %>%
+  arrange(as.character(doy))
+
+# generating time units as timestamps
+sfocus18_order$time_unit <- seq.int(nrow(sfocus18_order))
+sfocus19_order$time_unit <- seq.int(nrow(sfocus19_order))
+sfocus20_order$time_unit <- seq.int(nrow(sfocus20_order))
+sfocus21_order$time_unit <- seq.int(nrow(sfocus21_order))
+sfocus22_order$time_unit <- seq.int(nrow(sfocus22_order))
 
 # visualizing minutes of precipitation
-srer2018_focusplot <- srerfocus2018 %>%
-  ggplot(aes(x = hour,y = priPrecipBulk)) + 
+srer2018_focusplot <- sfocus18_order %>%
+  ggplot(aes(x = time_unit,y = priPrecipBulk)) + 
   geom_line(linewidth = 0.5,colour = "#20A16F") +
   geom_point(size = 2, colour = "#20A16F") +
-  labs(x="Hour of Year (2018)",
+  labs(x="Time of Year by half-hours (2018)",
        y="Bulk precipitation (mm)") +
   theme_clean() +
   theme(axis.title = element_text(size = 12,face = "bold",),
@@ -140,11 +159,11 @@ srer2018_focusplot <- srerfocus2018 %>%
         legend.text = element_text(size = 10))
 srer2018_focusplot
 
-srer2019_focusplot <- srerfocus2019 %>%
-  ggplot(aes(x = hour,y = priPrecipBulk)) + 
+srer2019_focusplot <- sfocus19_order %>%
+  ggplot(aes(x = time_unit,y = priPrecipBulk)) + 
   geom_line(linewidth = 0.5,colour = "#20A16F") +
   geom_point(size = 2, colour = "#20A16F") +
-  labs(x="Hour of Year (2019)",
+  labs(x="Time of Year by half-hours (2019)",
        y="Bulk precipitation (mm)") +
   theme_clean() +
   theme(axis.title = element_text(size = 12,face = "bold",),
@@ -152,11 +171,11 @@ srer2019_focusplot <- srerfocus2019 %>%
         legend.text = element_text(size = 10))
 srer2019_focusplot
 
-srer2020_focusplot <- srerfocus2020 %>%
-  ggplot(aes(x = hour,y = priPrecipBulk)) + 
+srer2020_focusplot <- sfocus20_order %>%
+  ggplot(aes(x = time_unit,y = priPrecipBulk)) + 
   geom_line(linewidth = 0.5,colour = "#20A16F") +
   geom_point(size = 2, colour = "#20A16F") +
-  labs(x="Hour of Year (2020)",
+  labs(x="Time of Year by half-hours (2020)",
        y="Bulk precipitation (mm)") +
   theme_clean() +
   theme(axis.title = element_text(size = 12,face = "bold",),
@@ -164,11 +183,11 @@ srer2020_focusplot <- srerfocus2020 %>%
         legend.text = element_text(size = 10))
 srer2020_focusplot
 
-srer2021_focusplot <- srerfocus2021 %>%
-  ggplot(aes(x = hour,y = priPrecipBulk)) + 
+srer2021_focusplot <- sfocus21_order %>%
+  ggplot(aes(x = time_unit,y = priPrecipBulk)) + 
   geom_line(linewidth = 0.5,colour = "#20A16F") +
   geom_point(size = 2, colour = "#20A16F") +
-  labs(x="Hour of Year (2021)",
+  labs(x="Time of Year by half-hours (2021)",
        y="Bulk precipitation (mm)") +
   theme_clean() +
   theme(axis.title = element_text(size = 12,face = "bold",),
@@ -176,11 +195,11 @@ srer2021_focusplot <- srerfocus2021 %>%
         legend.text = element_text(size = 10))
 srer2021_focusplot
 
-srer2022_focusplot <- srerfocus2022 %>%
-  ggplot(aes(x = hour,y = priPrecipBulk)) + 
+srer2022_focusplot <- sfocus22_order %>%
+  ggplot(aes(x = time_unit,y = priPrecipBulk)) + 
   geom_line(linewidth = 0.5,colour = "#20A16F") +
   geom_point(size = 2, colour = "#20A16F") +
-  labs(x="Hour of Year (2022)",
+  labs(x="Time of Year by half-hours (2022)",
        y="Bulk precipitation (mm)") +
   theme_clean() +
   theme(axis.title = element_text(size = 12,face = "bold",),

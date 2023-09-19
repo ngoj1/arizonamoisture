@@ -380,9 +380,7 @@ jorVWClong <- jornadaVWC %>%
                values_to = "VWC_avg")
 View(jorVWClong)
 
-jornada2014 <- jornada2014 %>%
-  as.Date(jornada2014$YearDay, origin = as.Date("2014-01-01"))
-View(jornada2014)
+
 
 
 #Filtering for specific years
@@ -404,6 +402,11 @@ jornada2021 <- jorVWClong %>%
   filter(Year == 2021)
 jornada2022 <- jorVWClong %>%
   filter(Year == 2022)
+
+# jornada2014 <- jornada2014 %>%
+#   as.Date(jornada2014$YearDay, origin = as.Date("2014-01-01"))
+# View(jornada2014)
+
 
 #separating 301 and 302
 jornada2014a <- jornada2014 %>%
@@ -486,7 +489,7 @@ jor14a_plot <- jornada2014a %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor14a_plot
-ggsave("plots/jornada_2014_301.png",plot=jor14a_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2014_301.png",plot=jor14a_plot,scale=1,dpi=600)
 
 # jornada 2014, 302 depths
 jor14b_plot <- jornada2014b %>%
@@ -510,7 +513,7 @@ jor14b_plot <- jornada2014b %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor14b_plot
-ggsave("plots/jornada_2014_302.png",plot=jor14b_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2014_302.png",plot=jor14b_plot,scale=1,dpi=600)
 
 # jornada 2015, 301 depths
 jor15a_plot <- jornada2015a %>%
@@ -534,7 +537,7 @@ jor15a_plot <- jornada2015a %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor15a_plot
-ggsave("plots/jornada_2015_301.png",plot=jor15a_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2015_301.png",plot=jor15a_plot,scale=1,dpi=600)
 
 # jornada 2015, 302 depths
 jor15b_plot <- jornada2015b %>%
@@ -558,7 +561,7 @@ jor15b_plot <- jornada2015b %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor15b_plot
-ggsave("plots/jornada_2015_302.png",plot=jor15b_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2015_302.png",plot=jor15b_plot,scale=1,dpi=600)
 
 # jornada 2016, 301 depths
 jor16a_plot <- jornada2016a %>%
@@ -582,7 +585,7 @@ jor16a_plot <- jornada2016a %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor16a_plot
-ggsave("plots/jornada_2016_301.png",plot=jor16a_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2016_301.png",plot=jor16a_plot,scale=1,dpi=600)
 
 # jornada 2016, 302 depths
 jor16b_plot <- jornada2016b %>%
@@ -606,7 +609,7 @@ jor16b_plot <- jornada2016b %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor16b_plot
-ggsave("plots/jornada_2016_302.png",plot=jor16b_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2016_302.png",plot=jor16b_plot,scale=1,dpi=600)
 
 # jornada 2017, 301 depths
 jor17a_plot <- jornada2017a %>%
@@ -630,7 +633,7 @@ jor17a_plot <- jornada2017a %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor17a_plot
-ggsave("plots/jornada_2017_301.png",plot=jor17a_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2017_301.png",plot=jor17a_plot,scale=1,dpi=600)
 
 # jornada 2017, 302 depths
 jor17b_plot <- jornada2017b %>%
@@ -654,7 +657,7 @@ jor17b_plot <- jornada2017b %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor17b_plot
-ggsave("plots/jornada_2017_302.png",plot=jor17b_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2017_302.png",plot=jor17b_plot,scale=1,dpi=600)
 
 # jornada 2018, 301 depths
 jor18a_plot <- jornada2018a %>%
@@ -678,7 +681,7 @@ jor18a_plot <- jornada2018a %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor18a_plot
-ggsave("plots/jornada_2018_301.png",plot=jor18a_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2018_301.png",plot=jor18a_plot,scale=1,dpi=600)
 
 # jornada 2018, 302 depths
 jor18b_plot <- jornada2018b %>%
@@ -702,7 +705,7 @@ jor18b_plot <- jornada2018b %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor18b_plot
-ggsave("plots/jornada_2018_302.png",plot=jor18b_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2018_302.png",plot=jor18b_plot,scale=1,dpi=600)
 
 # jornada 2019, 301 depths
 jor19a_plot <- jornada2019a %>%
@@ -726,7 +729,7 @@ jor19a_plot <- jornada2019a %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor19a_plot
-ggsave("plots/jornada_2019_301.png",plot=jor19a_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2019_301.png",plot=jor19a_plot,scale=1,dpi=600)
 
 # jornada 2019, 302 depths
 jor19b_plot <- jornada2019b %>%
@@ -750,7 +753,7 @@ jor19b_plot <- jornada2019b %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor19b_plot
-ggsave("plots/jornada_2019_302.png",plot=jor19b_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2019_302.png",plot=jor19b_plot,scale=1,dpi=600)
 
 # jornada 2020, 301 depths
 jor20a_plot <- jornada2020a %>%
@@ -774,7 +777,7 @@ jor20a_plot <- jornada2020a %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor20a_plot
-ggsave("plots/jornada_2020_301.png",plot=jor20a_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2020_301.png",plot=jor20a_plot,scale=1,dpi=600)
 
 # jornada 2020, 302 depths
 jor20b_plot <- jornada2020b %>%
@@ -798,7 +801,7 @@ jor20b_plot <- jornada2020b %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor20b_plot
-ggsave("plots/jornada_2020_302.png",plot=jor20b_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2020_302.png",plot=jor20b_plot,scale=1,dpi=600)
 
 # jornada 2021, 301 depths
 jor21a_plot <- jornada2021a %>%
@@ -822,7 +825,7 @@ jor21a_plot <- jornada2021a %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor21a_plot
-ggsave("plots/jornada_2021_301.png",plot=jor21a_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2021_301.png",plot=jor21a_plot,scale=1,dpi=600)
 
 # jornada 2021, 302 depths
 jor21b_plot <- jornada2021b %>%
@@ -846,7 +849,7 @@ jor21b_plot <- jornada2021b %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor21b_plot
-ggsave("plots/jornada_2021_302.png",plot=jor21b_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2021_302.png",plot=jor21b_plot,scale=1,dpi=600)
 
 # jornada 2022, 301 depths
 jor22a_plot <- jornada2022a %>%
@@ -870,7 +873,7 @@ jor22a_plot <- jornada2022a %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor22a_plot
-ggsave("plots/jornada_2022_301.png",plot=jor22a_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2022_301.png",plot=jor22a_plot,scale=1,dpi=600)
 
 # jornada 2022, 302 depths
 jor22b_plot <- jornada2022b %>%
@@ -894,7 +897,7 @@ jor22b_plot <- jornada2022b %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor22b_plot
-ggsave("plots/jornada_2022_302.png",plot=jor22b_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2022_302.png",plot=jor22b_plot,scale=1,dpi=600)
 
 # Faceting for: a given year across both sites
 jor14facet_prep <- jornada2014 %>%
@@ -951,7 +954,7 @@ jor14facet_plot <- jor14facet_prep %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor14facet_plot
-ggsave("plots/jornada_2014_facet.png",plot=jor14facet_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2014_facet.png",plot=jor14facet_plot,scale=1,dpi=600)
 
 jor15facet_plot <- jor15facet_prep %>%
   ggplot(aes(x = as.Date(YearDay, origin = as.Date("2015-01-01")), y = VWC_avg, colour = Depth, shape = Depth)) + 
@@ -978,7 +981,7 @@ jor15facet_plot <- jor15facet_prep %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor15facet_plot
-ggsave("plots/jornada_2015_facet.png",plot=jor15facet_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2015_facet.png",plot=jor15facet_plot,scale=1,dpi=600)
 
 jor16facet_plot <- jor16facet_prep %>%
   ggplot(aes(x = as.Date(YearDay, origin = as.Date("2016-01-01")), y = VWC_avg, colour = Depth, shape = Depth)) + 
@@ -1005,7 +1008,7 @@ jor16facet_plot <- jor16facet_prep %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor16facet_plot
-ggsave("plots/jornada_2016_facet.png",plot=jor16facet_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2016_facet.png",plot=jor16facet_plot,scale=1,dpi=600)
 
 jor17facet_plot <- jor17facet_prep %>%
   ggplot(aes(x = as.Date(YearDay, origin = as.Date("2017-01-01")), y = VWC_avg, colour = Depth, shape = Depth)) + 
@@ -1032,7 +1035,7 @@ jor17facet_plot <- jor17facet_prep %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor17facet_plot
-ggsave("plots/jornada_2017_facet.png",plot=jor17facet_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2017_facet.png",plot=jor17facet_plot,scale=1,dpi=600)
 
 jor18facet_plot <- jor18facet_prep %>%
   ggplot(aes(x = as.Date(YearDay, origin = as.Date("2018-01-01")), y = VWC_avg, colour = Depth, shape = Depth)) + 
@@ -1059,7 +1062,7 @@ jor18facet_plot <- jor18facet_prep %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor18facet_plot
-ggsave("plots/jornada_2018_facet.png",plot=jor18facet_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2018_facet.png",plot=jor18facet_plot,scale=1,dpi=600)
 
 jor19facet_plot <- jor19facet_prep %>%
   ggplot(aes(x = as.Date(YearDay, origin = as.Date("2019-01-01")), y = VWC_avg, colour = Depth, shape = Depth)) + 
@@ -1086,7 +1089,7 @@ jor19facet_plot <- jor19facet_prep %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor19facet_plot
-ggsave("plots/jornada_2019_facet.png",plot=jor19facet_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2019_facet.png",plot=jor19facet_plot,scale=1,dpi=600)
 
 jor20facet_plot <- jor20facet_prep %>%
   ggplot(aes(x = as.Date(YearDay, origin = as.Date("2020-01-01")), y = VWC_avg, colour = Depth, shape = Depth)) + 
@@ -1113,7 +1116,7 @@ jor20facet_plot <- jor20facet_prep %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor20facet_plot
-ggsave("plots/jornada_2020_facet.png",plot=jor20facet_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2020_facet.png",plot=jor20facet_plot,scale=1,dpi=600)
 
 jor21facet_plot <- jor21facet_prep %>%
   ggplot(aes(x = as.Date(YearDay, origin = as.Date("2021-01-01")), y = VWC_avg, colour = Depth, shape = Depth)) + 
@@ -1140,7 +1143,7 @@ jor21facet_plot <- jor21facet_prep %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor21facet_plot
-ggsave("plots/jornada_2021_facet.png",plot=jor21facet_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2021_facet.png",plot=jor21facet_plot,scale=1,dpi=600)
 
 jor22facet_plot <- jor22facet_prep %>%
   ggplot(aes(x = as.Date(YearDay, origin = as.Date("2022-01-01")), y = VWC_avg, colour = Depth, shape = Depth)) + 
@@ -1167,14 +1170,14 @@ jor22facet_plot <- jor22facet_prep %>%
   scale_x_date(date_labels = "%b",
                date_breaks = "1 month")
 jor22facet_plot
-ggsave("plots/jornada_2022_facet.png",plot=jor22facet_plot,scale=1,dpi=600)
+# ggsave("plots/jornada_2022_facet.png",plot=jor22facet_plot,scale=1,dpi=600)
 
 # Faceting for: a given site across all years
-# jornada301 <- jorVWClong %>%
-#   filter(grepl("301",Depth)) %>%
-#   mutate(month = case_when(between(YearDay,1,31) ~ "January",
-# jornada302 <- jorVWClong %>%
-#   filter(grepl("302",Depth))
+jornada301 <- jorVWClong %>%
+  filter(grepl("301",Depth))
+jornada302 <- jorVWClong %>%
+  filter(grepl("302",Depth))
+
 # 
 # Trying to facet_grid doesn't work here because leap years exist and so the x-axis isn't consistent; maybe better to try using ggpubr package's ggarrange()
 # 
@@ -1187,3 +1190,231 @@ ggsave("plots/jornada_2022_facet.png",plot=jor22facet_plot,scale=1,dpi=600)
 #           jor20a_plot, jor21a_plot, jor22a_plot,
 #           ncol = 1, nrow = 9,
 #           labels = "2014,2015,2016,2017,2018,2019,2020,2021,2022")
+
+
+
+
+# UPDATE 19/7/2023: Maybe I can facet_wrap() without trying to convert DOY to month since that's where issues with leap years occur
+
+jornada301a <- jornada301 %>%
+  filter(between(Year,2014,2016))
+jornada301b <- jornada301 %>%
+  filter(between(Year,2017,2019))
+jornada301c <- jornada301 %>%
+  filter(between(Year,2020,2022))
+jornada301d <- jornada301 %>%
+  filter(between(Year,2014,2022))
+
+jornada302a <- jornada302 %>%
+  filter(between(Year,2014,2016))
+jornada302b <- jornada302 %>%
+  filter(between(Year,2017,2019))
+jornada302c <- jornada302 %>%
+  filter(between(Year,2020,2022))
+jornada302d <- jornada302 %>%
+  filter(between(Year,2014,2022))
+
+# version 1 with 3 separate plots so the details are easier to see
+jor301facet_plot_a <- jornada301a %>%
+  ggplot(aes(x=YearDay,y=VWC_avg,colour=Depth,shape=Depth)) +
+  geom_line(linewidth = 0.5) +
+  geom_point(size = 2) +
+  labs(x="Day of Year",
+       y="Average volumetric water content",
+       colour ="301 Soil Depth (cm)",
+       shape = "301 Soil Depth (cm)") +
+  facet_wrap(~Year,ncol = 1) +
+  theme_clean() + 
+  theme(axis.title = element_text(size = 12,face = "bold",),
+        legend.title = element_text(size = 12, face = "bold"),
+        legend.text = element_text(size = 10)) +
+  scale_colour_manual(values = c("VWC_Avg_301_10cm" = "#FFD524",
+                                 "VWC_Avg_301_20cm" = "#20A16F",
+                                 "VWC_Avg_301_30cm" = "#366EC4"),
+                      labels = c(10,20,30)) +
+  scale_shape_manual(values = c("circle","square","triangle"),
+                     labels = c(10,20,30))
+jor301facet_plot_a
+# ggsave("plots/jor301facet_plot_a.png",plot=jor301facet_plot_a,scale=1,dpi=600)
+
+jor301facet_plot_b <- jornada301b %>%
+  ggplot(aes(x=YearDay,y=VWC_avg,colour=Depth,shape=Depth)) +
+  geom_line(linewidth = 0.5) +
+  geom_point(size = 2) +
+  labs(x="Day of Year",
+       y="Average volumetric water content",
+       colour ="301 Soil Depth (cm)",
+       shape = "301 Soil Depth (cm)") +
+  facet_wrap(~Year,ncol = 1) +
+  theme_clean() + 
+  theme(axis.title = element_text(size = 12,face = "bold",),
+        legend.title = element_text(size = 12, face = "bold"),
+        legend.text = element_text(size = 10)) +
+  scale_colour_manual(values = c("VWC_Avg_301_10cm" = "#FFD524",
+                                 "VWC_Avg_301_20cm" = "#20A16F",
+                                 "VWC_Avg_301_30cm" = "#366EC4"),
+                      labels = c(10,20,30)) +
+  scale_shape_manual(values = c("circle","square","triangle"),
+                     labels = c(10,20,30))
+jor301facet_plot_b
+# ggsave("plots/jor301facet_plot_b.png",plot=jor301facet_plot_b,scale=1,dpi=600)
+
+jor301facet_plot_c <- jornada301c %>%
+  ggplot(aes(x=YearDay,y=VWC_avg,colour=Depth,shape=Depth)) +
+  geom_line(linewidth = 0.5) +
+  geom_point(size = 2) +
+  labs(x="Day of Year",
+       y="Average volumetric water content",
+       colour ="301 Soil Depth (cm)",
+       shape = "301 Soil Depth (cm)") +
+  facet_wrap(~Year,ncol = 1) +
+  theme_clean() + 
+  theme(axis.title = element_text(size = 12,face = "bold",),
+        legend.title = element_text(size = 12, face = "bold"),
+        legend.text = element_text(size = 10)) +
+  scale_colour_manual(values = c("VWC_Avg_301_10cm" = "#FFD524",
+                                 "VWC_Avg_301_20cm" = "#20A16F",
+                                 "VWC_Avg_301_30cm" = "#366EC4"),
+                      labels = c(10,20,30)) +
+  scale_shape_manual(values = c("circle","square","triangle"),
+                     labels = c(10,20,30))
+jor301facet_plot_c
+# ggsave("plots/jor301facet_plot_c.png",plot=jor301facet_plot_c,scale=1,dpi=600)
+
+jor302facet_plot_a <- jornada302a %>%
+  ggplot(aes(x=YearDay,y=VWC_avg,colour=Depth,shape=Depth)) +
+  geom_line(linewidth = 0.5) +
+  geom_point(size = 2) +
+  labs(x="Day of Year",
+       y="Average volumetric water content",
+       colour ="302 Soil Depth (cm)",
+       shape = "302 Soil Depth (cm)") +
+  facet_wrap(~Year,ncol = 1) +
+  theme_clean() + 
+  theme(axis.title = element_text(size = 12,face = "bold",),
+        legend.title = element_text(size = 12, face = "bold"),
+        legend.text = element_text(size = 10)) +
+  scale_colour_manual(values = c("VWC_Avg_302_10cm" = "#FFD524",
+                                 "VWC_Avg_302_20cm" = "#20A16F",
+                                 "VWC_Avg_302_30cm" = "#366EC4"),
+                      labels = c(10,20,30)) +
+  scale_shape_manual(values = c("circle","square","triangle"),
+                     labels = c(10,20,30))
+jor302facet_plot_a
+# ggsave("plots/jor302facet_plot_a.png",plot=jor302facet_plot_a,scale=1,dpi=600)
+
+jor302facet_plot_b <- jornada302b %>%
+  ggplot(aes(x=YearDay,y=VWC_avg,colour=Depth,shape=Depth)) +
+  geom_line(linewidth = 0.5) +
+  geom_point(size = 2) +
+  labs(x="Day of Year",
+       y="Average volumetric water content",
+       colour ="302 Soil Depth (cm)",
+       shape = "302 Soil Depth (cm)") +
+  facet_wrap(~Year,ncol = 1) +
+  theme_clean() + 
+  theme(axis.title = element_text(size = 12,face = "bold",),
+        legend.title = element_text(size = 12, face = "bold"),
+        legend.text = element_text(size = 10)) +
+  scale_colour_manual(values = c("VWC_Avg_302_10cm" = "#FFD524",
+                                 "VWC_Avg_302_20cm" = "#20A16F",
+                                 "VWC_Avg_302_30cm" = "#366EC4"),
+                      labels = c(10,20,30)) +
+  scale_shape_manual(values = c("circle","square","triangle"),
+                     labels = c(10,20,30))
+jor302facet_plot_b
+# ggsave("plots/jor302facet_plot_b.png",plot=jor302facet_plot_b,scale=1,dpi=600)
+
+jor302facet_plot_c <- jornada302c %>%
+  ggplot(aes(x=YearDay,y=VWC_avg,colour=Depth,shape=Depth)) +
+  geom_line(linewidth = 0.5) +
+  geom_point(size = 2) +
+  labs(x="Day of Year",
+       y="Average volumetric water content",
+       colour ="302 Soil Depth (cm)",
+       shape = "302 Soil Depth (cm)") +
+  facet_wrap(~Year,ncol = 1) +
+  theme_clean() + 
+  theme(axis.title = element_text(size = 12,face = "bold",),
+        legend.title = element_text(size = 12, face = "bold"),
+        legend.text = element_text(size = 10)) +
+  scale_colour_manual(values = c("VWC_Avg_302_10cm" = "#FFD524",
+                                 "VWC_Avg_302_20cm" = "#20A16F",
+                                 "VWC_Avg_302_30cm" = "#366EC4"),
+                      labels = c(10,20,30)) +
+  scale_shape_manual(values = c("circle","square","triangle"),
+                     labels = c(10,20,30))
+jor302facet_plot_c
+# ggsave("plots/jor302facet_plot_c.png",plot=jor302facet_plot_c,scale=1,dpi=600)
+
+# version 2 with all 9 plots on one page
+jor301facet_plot_combined <- jornada301d %>%
+  ggplot(aes(x=YearDay,y=VWC_avg,colour=Depth,shape=Depth)) +
+  geom_line(linewidth = 0.5) +
+  geom_point(size = 1) +
+  labs(x="Day of Year",
+       y="Average volumetric water content",
+       colour ="301 Soil Depth (cm)",
+       shape = "301 Soil Depth (cm)") +
+  facet_wrap(~Year,ncol = 3,nrow=3) +
+  theme_few() + 
+  theme(axis.title = element_text(size = 12,face = "bold",),
+        legend.title = element_text(size = 12, face = "bold"),
+        legend.text = element_text(size = 10)) +
+  scale_colour_manual(values = c("VWC_Avg_301_10cm" = "#FFD524",
+                                 "VWC_Avg_301_20cm" = "#20A16F",
+                                 "VWC_Avg_301_30cm" = "#366EC4"),
+                      labels = c(10,20,30)) +
+  scale_shape_manual(values = c("circle","square","triangle"),
+                     labels = c(10,20,30))
+jor301facet_plot_combined
+# ggsave("plots/jor301facet_plot_combined.png",plot=jor301facet_plot_combined,scale=1,dpi=600)
+
+jor302facet_plot_combined <- jornada302d %>%
+  ggplot(aes(x=YearDay,y=VWC_avg,colour=Depth,shape=Depth)) +
+  geom_line(linewidth = 0.5) +
+  geom_point(size = 1) +
+  labs(x="Day of Year",
+       y="Average volumetric water content",
+       colour ="302 Soil Depth (cm)",
+       shape = "302 Soil Depth (cm)") +
+  facet_wrap(~Year,ncol = 3,nrow=3) +
+  theme_few() + 
+  theme(axis.title = element_text(size = 12,face = "bold",),
+        legend.title = element_text(size = 12, face = "bold"),
+        legend.text = element_text(size = 10)) +
+  scale_colour_manual(values = c("VWC_Avg_302_10cm" = "#FFD524",
+                                 "VWC_Avg_302_20cm" = "#20A16F",
+                                 "VWC_Avg_302_30cm" = "#366EC4"),
+                      labels = c(10,20,30)) +
+  scale_shape_manual(values = c("circle","square","triangle"),
+                     labels = c(10,20,30))
+jor302facet_plot_combined
+# ggsave("plots/jor302facet_plot_combined.png",plot=jor302facet_plot_combined,scale=1,dpi=600)
+
+
+########################################################################################################################
+# AREES concept plot
+
+View(jornada2018b)
+# isolating only data from the 10 cm depth
+jor18_302_10 <- jornada2018b %>%
+  filter(grepl("10cm",Depth))
+
+arees_conceptplot <- jor18_302_10 %>%
+  ggplot(aes(x = YearDay,y = VWC_avg)) +
+  geom_line(linewidth = 1) +
+  labs(x = "Time (days)",
+       y = "Average volumetric soil water content") + 
+  theme_few() + 
+  theme(axis.title = element_text(size = 12,face = "bold",),
+        legend.title = element_text(size = 12, face = "bold"),
+        legend.text = element_text(size = 10)) +
+  ylim(0,0.3) +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank())
+arees_conceptplot 
+# ggsave("plots/arees_jornada302_10cm_concept.png",plot=arees_conceptplot,scale=1,dpi=600)
+
+
+
